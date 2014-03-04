@@ -1,0 +1,38 @@
+<div class="block-cate-home">
+  <!-- Show category and sub category-->
+  <div class="title-cate-home">
+    <h2 class="title">
+      <a ng-href="{{blockcats.href}}" title="{{blockcats.title}}">{{blockcats.title}}</a>
+    </h2>
+    <ul>
+      <li ng-repeat='blockcat in blockcats.data'>
+        <a ng-href="{{blockcat.href}}" title="{{blockcat.title}}">{{blockcat.title}} </a>
+      </li>
+      <li>
+        <a class="view-more" ng-href="#" title="Xem tất cả"> Xem tất cả </a>
+      </li>
+    </ul>
+  </div>
+  <!-- Show product list-->
+  <div class="block-catehome-cont">
+    <div class="block-product" ng-repeat='product in products.data'>
+      <a class="img" ng-href="{{product.detail}}" title="{{product.title}}">
+        <img ng-src="{{product.href}}" border="0" alt="{{product.title}}">
+      </a>
+      <div class="block-price">
+
+        <div class="price-box">
+          <span class="regular-price" id="product-price-65981">
+            <span class="new-price">
+              <span class="price">{{product.newPrice}}</span>
+            </span>
+          </span>
+        </div>
+      </div>
+      <h3>
+        <a class="name-prod" ng-href="product.href">{{product.title}}</a>
+      </h3>
+      <a class="shop" ng-href="{{product.shop.href}}" target="_blank" title="{{product.shop.name}}">Shop: <span>{{product.shop.name}} </span></a>
+    </div>
+  </div>
+</div>

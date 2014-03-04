@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0; padding:0;}
+a{text-decoration:none;}
+img{border:none}
+.widget-nhacso{width: 220px; overflow:hidden;border: 1px solid #ddd;margin: 0 auto;}
+.widget-nhacso h3{
+	height: 33px;
+	background: url(../images/img-widget.gif) -1px -1px no-repeat;
+	margin-bottom:4px;
+}
+
+.widget-nhacso ul{overflow: hidden;}
+.widget-nhacso ul li a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #042b47;
+	background: url(../images/img-widget.gif) no-repeat;
+	display:block;
+	font-size:11px;
+	height:40px;
+	margin-bottom:4px;
+	padding: 0 21px 0 55px;
+	line-height: 18px;
+}
+.widget-nhacso ul li a:hover{text-decoration: underline;}
+.widget-nhacso ul li a.internet{
+	background-position: -1px -37px ;
+	line-height: 40px;
+}
+.widget-nhacso ul li a.ddtratruoc{
+	background-position: -1px -79px ;
+}
+.widget-nhacso ul li a.ddtrasau{
+	background-position: -1px -121px;
+	line-height:18px;
+}
+.widget-nhacso ul li a.vemaybay{
+	background-position: -1px -163px;
+}
+.widget-nhacso ul li a.diennuoc{
+	background-position: -1px -205px;
+}
+.widget-nhacso ul li a.truyenhinhso{
+	background-position: -1px -247px;
+	line-height: 40px;
+}
+.widget-nhacso ul li a.game{
+	background-position:  -1px -289px ;
+	line-height: 40px;
+}

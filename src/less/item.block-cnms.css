@@ -1,0 +1,202 @@
+@charset "utf-8";
+/*RESET*/
+.fl-l{float:left;}
+.fl-r{float:right;}
+.m-l-0{margin-left: 0;}
+/* CSS FOR CAM-NAMG-MUA-SAM BOX IN DETAIL PAGE */
+.cnms-detail{
+	width: 738px; 
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}
+.cnms-detail .title-cnms-dt{
+	height: 34px;
+	background:url(http://static.sendo.vn/images/ecom/bg-title-cmns-dt.gif) top left repeat-x;
+	padding-left: 10px;
+	border-bottom: 1px solid #ccc;
+	overflow:hidden;
+}
+.cnms-detail .title-cnms-dt span{
+	display:block;
+	float:left;
+	padding-top: 6px;
+	border-top: 2px solid #ff0000;
+	font-weight:bold;
+}
+.cnms-detail .content-cnms-dt{padding: 10px;overflow:hidden;}
+.cnms-detail .content-cnms-dt .row-inf{overflow:hidden;margin: 5px 0 20px 0;}
+.cnms-detail .content-cnms-dt .row-inf .col-1f{width: 48%;margin-right: 14px;height: 145px;overflow:hidden;}
+.cnms-detail .content-cnms-dt .row-inf .img-cls{
+	width: 130px;
+	height: 130px;
+	float:left;
+	overflow:hidden;
+	margin-right: 10px;
+}
+.cnms-detail .content-cnms-dt .row-inf .inf-cnms h3 a{
+	font-size: 12px;
+	color:#505050;
+	line-height: 17px;
+	max-height: 34px;
+	overflow:hidden;
+	display:block;
+}
+.cnms-detail .content-cnms-dt .row-inf .inf-cnms h3 a:hover{color:#222;}
+.cnms-detail .content-cnms-dt .row-inf .inf-cnms span{
+	color: #999999;
+	font-size: 11px;
+	margin: 10px 0;
+	display:block;
+}
+.cnms-detail .content-cnms-dt .row-inf .inf-cnms p{line-height: 17px;max-height:68px;overflow:hidden;}
+.cnms-detail .content-cnms-dt .xt-cnms-dt{text-align:right;overflow:hidden;}
+.cnms-detail .content-cnms-dt .xt-cnms-dt a{
+	background: url(http://static.sendo.vn/images/ecom/icon-xt.png) center right no-repeat;
+	padding-right: 10px;
+	display:block;
+	color: #222222;
+}
+.cnms-detail .content-cnms-dt .xt-cnms-dt a:hover{color:#0033FF}
+/*END CSS FOR CAM-NANG-MUA-SAM IN DETAIL PAGE*/
+
+/*CSS FOR CAM-NANG-MUA-SAM IN ORDER-SUCCESS-SENPAY PAGE*/	
+.cnms-order-success{
+	width: 976px; 
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}
+.cnms-order-success .title-cnms-od{
+	height: 34px;
+	background:url(http://static.sendo.vn/images/ecom/bg-title-cmns-dt.gif) top left repeat-x;
+	padding-left: 10px;
+	border-bottom: 1px solid #ccc;
+	overflow:hidden;
+}
+.cnms-order-success .title-cnms-od span{
+	display:block;
+	float:left;
+	padding-top: 6px;
+	border-top: 2px solid #ff0000;
+	font-weight:bold;
+}
+.cnms-order-success .cnt-cnms-od{
+	padding: 10px 5px 10px 10px;
+	overflow: hidden;
+}
+.cnms-order-success .cnt-cnms-od .row-inf{overflow:hidden;margin: 5px 0 20px 0;}
+.cnms-order-success .cnt-cnms-od .row-inf .col-cnms-od{
+	width: 308px;
+	float:left;
+	margin-left:10px;
+	height: 145px;
+	overflow:hidden;
+}
+.cnms-order-success .cnt-cnms-od .row-inf .col-cnms-od:first-child{margin-left:0;}
+.cnms-order-success .cnt-cnms-od .row-inf .img-cnms-od{
+	width: 130px;
+	height: 130px;
+	float:left;
+	overflow:hidden;
+	margin-right: 10px;
+}
+.cnms-order-success .cnt-cnms-od .row-inf .inf-cnms-od h3 a{
+	font-size: 12px;
+	color: #505050;
+	display: block;
+	line-height: 17px;
+	max-height: 34px;
+	overflow:hidden;
+}
+.cnms-order-success .cnt-cnms-od .row-inf .inf-cnms-od h3 a:hover{color: #222;}
+.cnms-order-success .cnt-cnms-od .row-inf .inf-cnms-od span{
+	color: #999999;
+	font-size: 11px;
+	margin: 10px 0;
+	display:block;
+}
+.cnms-order-success .cnt-cnms-od .row-inf .inf-cnms-od p{line-height: 17px;max-height: 68px; overflow:hidden;}
+.cnms-order-success .cnt-cnms-od .xt-cnms-dt{text-align:right;overflow:hidden;}
+.cnms-order-success .cnt-cnms-od .xt-cnms-dt a{
+	background: url(http://static.sendo.vn/images/ecom/icon-xt.png) center right no-repeat;
+	padding-right: 10px;
+	display:block;
+	color: #222222;
+}
+.cnms-order-success .cnt-cnms-od .xt-cnms-dt a:hover{color:#0033FF}
+/*END CSS FOR CAM-NANG-MUA-SAM IN ORDER-SUCCESS-SENPAY PAGE*/
+
+/*CSS FOR KHONG-THE-BO-QUA BOX IN PRODUTLISTING-3 PAGE AND PRODUCTLISTING-2 PAGE*/
+.cnms-pr{
+	width: 220px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+}
+.cnms-pr .ttl-cnms{
+	height: 34px;
+	background: url(http://static.sendo.vn/images/ecom/bgsprite-home.png) 0 -374px;
+	border-bottom: 1px solid #ccc;
+	overflow:hidden;
+	padding-left: 10px;
+}
+.cnms-pr .ttl-cnms span{
+	display:block;
+	float:left;
+	padding: 6px 5px 0 0;
+	border-top: 2px solid #ff0000;
+	font-weight:bold;
+	line-height: 17px;
+	font-size: 13px;
+}
+.cnms-pr .ct-cnms{
+	padding: 0 10px;
+}
+.cnms-pr .ct-cnms .cate-cnms{
+	padding: 10px 0;
+	border-bottom: 1px dotted #ccc;
+}
+.cnms-pr .ct-cnms .cate-cnms .img-cate{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-right: 5px;
+	overflow:hidden;
+}
+.cnms-pr .ct-cnms .cate-cnms .inf-cate h3 a{
+	color: #505050;
+	font-size: 12px;
+	line-height: 17px;
+	display:block;
+	max-height: 34px;
+	overflow:hidden;
+}
+.cnms-pr .ct-cnms .cate-cnms .inf-cate h3 a:hover{color: #222;}
+.cnms-pr .ct-cnms .cate-cnms .inf-cate span{
+	color: #999999;
+	font-size:11px;
+	margin: 4px;
+	display:block;
+}
+.cnms-pr .ct-cnms .cate-cnms .inf-cate p{
+	color: #666666;
+	line-height: 17px;
+}
+.cnms-pr .xt-cnms{text-align:right;overflow:hidden;padding:5px 0;}
+.cnms-pr .xt-cnms a{
+	background: url(http://static.sendo.vn/images/ecom/icon-xt.png) center right no-repeat;
+	padding-right: 10px;
+	display:block;
+	color: #222222;
+}
+.cnms-pr .xt-cnms a:hover{color:#0033FF}
+/*CSS FOR KHONG-THE-BO-QUA BOX IN PRODUTLISTING-3 PAGE*/
+
+.cnms-pr .article-view{
+	border-top: 1px solid #ccc;
+	padding: 10px 10px 0;
+}
+.cnms-pr .article-view h3{font-size:12px;color: #222222;}
+.cnms-pr .article-view .inf-view{padding: 10px 0 5px; border-bottom: 1px dotted #ccc;}
+.cnms-pr .article-view .inf-view p{color:#222222; line-height:17px;}
+.cnms-pr .article-view .inf-view span{color:#999999;font-size:11px;line-height:17px;}
+
+/*END CSS FOR KHONG-THE-BO-QUA BOX IN PRODUTLISTING-3 PAGE AND PRODUCTLISTING-2 PAGE*/

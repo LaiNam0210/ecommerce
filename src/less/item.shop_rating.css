@@ -1,0 +1,647 @@
+@charset "utf-8";
+.doc_rating
+{
+    color:#333;
+    line-height:18px;
+}
+.doc_rating .help
+{
+    border-bottom:1px #f1f1f1 solid;
+    padding:5px 0px;
+}
+.doc_rating .help .tt
+{
+    /*background:url(http://static.sendo.vn/images/ecom/info.gif) 0 0 no-repeat;*/
+    width:20px;
+    height:20px;
+    margin-left:10px;
+    display:inline-block;
+    top:2px;
+    position:relative;
+
+}
+.doc_rating .info_shop_rating
+{
+    padding:10px 0px;
+    border-bottom:1px #f1f1f1 solid;
+}
+.doc_rating .info_shop_rating .shop
+{
+
+}
+.doc_rating .info_shop_rating .shop span
+{
+    color:#F00;
+    font-size:16px;
+    font-weight:bold;
+}
+.doc_rating .info_shop_rating .shop span a
+{
+    color:#F00;
+    text-decoration:underline;
+}
+.doc_rating .info_shop_rating div
+{
+    overflow: hidden;
+    padding:4px 0px;
+}
+.doc_rating .info_shop_rating .rate
+{
+
+}
+.doc_rating .info_shop_rating .rate_point
+{
+
+}
+.doc_rating .info_shop_rating .rate_point span.imgs{
+    display: block;
+    float:left;
+    overflow: hidden;
+    margin-left: 5px;
+}
+.doc_rating .info_shop_rating .rate .tt
+{
+    /*background:url(http://static.sendo.vn/images/ecom/info.gif) 0 0 no-repeat;*/
+    width:20px;
+    height:20px;
+    margin-left:10px;
+    display:inline-block;
+    top:2px;
+    position:relative;
+
+}
+.doc_rating .info_shop_rating .rate_point .compare_withorder
+{
+    float:right;	
+    padding-top:0;
+}
+
+.doc_rating .info_shop_rating .rate_point .compare_withorder
+{
+    float:right;
+    margin-right:100px;		
+}
+.doc_rating .info_shop_rating .rate_point .compare_withorder .green
+{
+    background:#009900;
+    color:#FFF;
+    font-size:11px;	
+    height:20px;
+    line-height:20px;	
+    padding:0px 10px;
+    float:left;
+}	
+.doc_rating .info_shop_rating .rate_point .compare_withorder .white
+{
+    border-top:1px #8b8b8b solid;
+    border-right:1px #8b8b8b solid;
+    border-bottom:1px #8b8b8b solid;
+    height:18px;
+    line-height:18px;
+    padding:0px 10px;
+    float:left;
+    font-size:11px;	
+}	
+
+.doc_rating .info_shop_rating span.w
+{
+    width:170px;
+    display:inline-block;
+}
+.doc_rating .info_shop_rating .rate_point span.red ,.doc_rating .info_shop_rating .rate span.red
+{
+    color:#F00;
+    font-weight:bold;
+    font-size:14px;
+}
+
+
+.doc_rating .info_shop_rating .open_date
+{
+
+}
+.doc_rating .info_shop_rating .cancel_order
+{
+
+}
+
+.doc_rating .history_fb
+{
+    margin:10px;
+    border:1px #ccc solid;
+    border-bottom:0px #ccc solid;
+}
+.history_fb h3
+{
+     background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+.history_fb .name_rate
+{
+    display:table;
+    width:100%;		
+}
+.history_fb .name_rate
+{
+    display:table;
+    table-layout:fixed;
+    border-bottom:1px #CCC solid;
+
+}
+.history_fb .name_rate .cell
+{
+    display:table-cell;
+    padding:5px 10px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    text-align:center;
+    font-weight:bold;
+    border-right: 1px solid #fff;
+}
+.history_fb .name_rate .cell.point
+{
+    color:#185db2;
+}
+
+.fb_cmt_buyer
+{
+    margin-top:10px;	
+}
+
+.fb_cmt_buyer .tilte_paging
+{
+    padding:5px 0px;
+    border-bottom:2px #CCC solid;
+    overflow:hidden;
+}
+.fb_cmt_buyer .tilte_paging .paging
+{
+    float:right;
+    clear:left;
+}
+.fb_cmt_buyer .tilte_table
+{
+    overflow:hidden;		
+}
+.fb_cmt_buyer .tilte_table .title
+{
+    font-weight:bold;
+    width:30%;
+    float:left;
+    padding:5px 0px;
+    line-height: 20px;
+}
+.fb_cmt_buyer .box_comment
+{
+    overflow:hidden;
+    margin-top:10px;
+    border-bottom:1px #CCC solid;
+    padding-bottom:10px;
+}
+.fb_cmt_buyer .box_comment .user
+{
+    float:left;
+    width:30%;
+}
+.fb_cmt_buyer .box_comment .user .name
+{
+    font-weight:bold;
+    color: #06c;
+    line-height: 18px;
+    cursor: pointer;
+}
+.fb_cmt_buyer .box_comment .user .name:hover{text-decoration: underline;}
+.fb_cmt_buyer .box_comment .user .date
+{
+    font-size:11px;
+    padding:3px 0px;
+
+}
+.fb_cmt_buyer .box_comment .text
+{
+    float:left;
+}
+.fb_cmt_buyer .box_comment .text .rate_star
+{
+    display:inline-block;	
+}
+.fb_cmt_buyer .box_comment .text .rate_star .gray,
+.service-rating-star .gray
+{
+    background:url(http://static.sendo.vn/images/ecom/star1.png) left top repeat-x;
+    height:20px;
+    width:80px;
+    float:left;
+}
+.fb_cmt_buyer .box_comment .text .rate_star .red,
+.service-rating-star .red
+{
+    background:url(http://static.sendo.vn/images/ecom/star2.png) left top repeat-x;
+    height:20px;
+    float:left;
+}
+.fb_cmt_buyer .box_comment .text .rate_star span
+{
+    float:left;	
+    height:20px;
+    line-height:20px;
+}
+.fb_cmt_buyer .box_comment .text .text_cmt	
+{
+    clear:left;
+    padding-top:5px;
+    width: 505px;
+    text-align: justify;
+}	
+
+
+
+.paging ol li {
+    float: left;
+    padding: 0 2px;
+    line-height: 18px;
+    list-style:none;
+}
+.paging ol li a {
+    color: #333;
+    display: block;
+    padding: 0 7px;
+    background: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    text-decoration:none;
+    cursor: pointer;        
+}
+.paging ol li a.next {
+    background:url(http://static.sendo.vn/images/ecom/rightarr.gif) 4px 2px no-repeat;
+    font-size: 0;
+    text-indent: -9999px;
+    width: 4px;
+    height: 20px;
+    border: 1px solid #fff;
+}
+.paging ol li a.next:hover {
+    background:url(http://static.sendo.vn/images/ecom/rightarr.gif) 4px 2px no-repeat;
+    border-color: transparent;   
+}
+.paging ol li a.prev {
+    background:url(http://static.sendo.vn/images/ecom/leftarr.gif) 4px 2px no-repeat;
+    font-size: 0;
+    text-indent: -9999px;
+    width: 4px;
+    height: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.paging ol li a.prev:hover {
+    background:url(http://static.sendo.vn/images/ecom/leftarr.gif) 4px 2px no-repeat;
+    border-color: transparent;   
+}
+.paging ol li a.current {
+    background: #ed4934;
+    border: 1px solid #cb230e;
+    color: #fff;
+}
+.paging ol li a:hover {
+    background: #ed4934;
+    border: 1px solid #cb230e;
+    color: #fff;
+}
+.comment_paging_ft
+{
+    margin-top:10px;
+    text-align:right;
+    overflow: hidden;
+}
+.fr
+{
+    float:right;
+}
+
+
+/*product-detail*/
+.tab2-response{width: 738px;}
+.tab2-response div.txt-head{
+    padding: 10px;
+    border-bottom: 1px solid #f1f1f1;	
+}
+.content-tab2 .rating-block{overflow:hidden;padding: 0 10px;}
+.content-tab2 .rating-block .star-rating{width: 40%;float:left;margin-top: 30px;}
+.star-rating .ratingstar,
+.product-review .ratingstar{
+    width: 100px;
+    float: left;
+}
+.star-rating .ratingstar .stargrey,
+.product-review .ratingstar .stargrey {
+    height: 19px;
+    background:	url(http://static.sendo.vn/images/ecom/star-rating.png) repeat-x 0 -20px;
+}
+.star-rating .ratingstar .staryellow,
+.product-review .ratingstar .staryellow{
+    height: 19px;
+    background: url(http://static.sendo.vn/images/ecom/star-rating.png) repeat-x 0 0;
+    width: 0%;
+}
+.content-tab2 .rating-block .star-rating div.txt-rating{
+    float:left;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: #000;
+}
+.star-rating div.txt-rating .red{color: #f00;}
+.content-tab2 .rating-block .star-rating p{
+    margin-top: 5px;
+    line-height: 17px;
+    font-size: 11px;	
+}
+.content-tab2 .rating-block .star-rating p a{
+    font-weight:bold;
+    color: #0066cc;
+    text-decoration: underline;
+}
+.content-tab2 .desc-rating{width: 60%;float:left;padding-top: 10px;text-align:right;}
+.content-tab2 .desc-rating table{border: 1px solid #ccc;float:right;}
+.content-tab2 .desc-rating table .col-rg{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;	
+    border-left: 1px solid #ccc;
+}
+.content-tab2 .desc-rating table .col-rg span{float:left;}
+.desc-rating table .col-rg .desc-level{
+    width: 140px;
+    float:right;
+    background-color: #dddddd;	
+    height: 10px;
+    margin-top: 7px;
+}
+.desc-rating table .col-rg .desc-level .redcolor{
+    width: 80%;
+    background-color: #e5101d;
+    height: 10px;
+    float:left;
+}
+.content-tab2 .desc-rating table td.bd-bt{border-bottom:1px solid #ccc;}
+.content-tab2 .desc-rating table td.col-lf{padding-left: 10px;}
+
+/*buyer-rating*/
+.buyer-rating-model{width: 680px;overflow:hidden;margin: 0 auto;}
+.buyer-rating-model .order-info{padding: 10px 15px;}
+.buyer-rating-model .order-info .block-info{padding: 5px 0;overflow:hidden;}
+.buyer-rating-model .order-info .block-info .info-lf{width: 20%;float:left;color:#505050;}
+.buyer-rating-model .order-info .block-info .info-rg{width: 80%;float:left;color:#000;}
+.buyer-rating-model .order-info .block-info .info-rg span.order-code{color:#de6c02;font-weight:bold;font-size:15px;}
+.order-info .block-info .info-rg span.shop-name{color:#e5101d;font-weight:bold;}
+.buyer-rating-model .shop-products{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #f4f4f4;
+    overflow:hidden;	
+}
+.buyer-rating-model .shop-products .ttl-block{
+    height: 32px;
+    background-color: #f1f1f1;
+    line-height: 32px;
+    overflow:hidden;
+    padding-left: 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+.buyer-rating-model .shop-products .ttl-block span{
+    display: block;
+    float:left;
+    font-weight:bold;
+    color: #505050;
+}
+.w-47-p{width: 47%;}
+.w-20-p{width: 20%;}
+.w-13-p{width: 13%;}
+.buyer-rating-model .shop-products .product-info{
+    padding: 10px 0;
+    overflow:hidden;
+    border-bottom: 1px solid #ccc;
+    margin-left: 15px;
+}
+.buyer-rating-model .shop-products .product-info .main-info,
+.buyer-rating-model .shop-products .product-info .num-pr,
+.buyer-rating-model .shop-products .product-info .pr-price,
+.buyer-rating-model .shop-products .product-info .amount-price{float:left;	}
+.buyer-rating-model .shop-products .product-info .num-pr,
+.buyer-rating-model .shop-products .product-info .pr-price,
+.buyer-rating-model .shop-products .product-info .amount-price{padding-top: 20px;}
+.buyer-rating-model .shop-products .product-info .amount-price{font-weight:bold;color:#000;}
+.shop-products .product-info .main-info img{
+    float:left;
+    width: 70px;
+    height: 80px;
+    margin-right: 10px;
+}
+.shop-products .product-info .main-info h3{
+    font-weight:normal;	
+    line-height: 17px;
+    margin-bottom:5px;
+    color: #505050;
+}
+.shop-products .product-info .main-info span{display:block;line-height:17px;}
+.text-align-center{text-align:center;}
+.buyer-rating-model .shop-products .order-amount{
+    padding: 10px 60px 10px 0;
+    text-align:right;	
+}
+.buyer-rating-model .shop-products .order-amount span{margin-left: 100px;font-weight:bold;color: #000;}
+.buyer-rating-model .product-review{overflow:hidden;padding: 20px;}
+.buyer-rating-model .product-review p.txt{font-weight:bold;float:left;font-size:13px;}
+.buyer-rating-model .product-review .ratingstar{margin: -5px 10px 0 15px;}
+.buyer-rating-model .your-comment p.txt{margin: 0  0 8px 20px;}
+.buyer-rating-model .your-comment p.txt strong{font-size: 13px;}
+.buyer-rating-model .your-comment div.txt-area{padding: 0 60px 0 87px;}
+.buyer-rating-model .your-comment div.txt-area textarea{
+    width: 100%;
+    border:1px solid #ccc;
+    height:150px;
+    resize:vertical;
+    padding: 5px;
+}
+.buyer-rating-model .your-comment div.txt-area p{font-size:11px;margin-top: 5px;line-height:17px;}
+.buyer-rating-model .service-rating{
+    margin: 10px 0;
+    overflow:hidden;	
+}
+.buyer-rating-model .service-rating h3.txt{
+    line-height: 17px;
+    margin-left: 20px;	
+}
+.buyer-rating-model .service-rating h3.txt span{font-weight:normal;font-size:11px;}
+.buyer-rating-model .service-rating .service-block{
+    overflow:hidden;
+    margin: 10px 0 10px 60px;	
+}
+.buyer-rating-model .service-rating .service-block div.txt-col-lf{width: 30%;float:left;line-height: 17px;}
+.buyer-rating-model .service-rating .service-block div.txt-col-lf span.txt{float:left;line-height: 25px;}
+.buyer-rating-model .service-rating .service-block div.txt-col-lf img{float:left;margin-left: 10px;}
+.service-rating .service-block div.txt-col-lf .service-rating-star{float:left;}
+.p-t-5{padding-top: 5px;}
+.buyer-rating-model div.bt{text-align:center;}
+.buyer-rating-model div.bt button{
+    padding: 5px 15px;
+    -moz-border-radius:3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:12px;
+}
+.buyer-rating-model div.bt button.bt-rating{background-color: #f00;border: 1px solid #f00;color:#fff;}
+.buyer-rating-model div.bt button.bt-cancel{background-color: #c9c7c7;margin-left: 5px;border: 1px solid #ddd;}
+.buyer-rating-model .desc-buyer-rating{
+    padding: 10px 20px 10px 60px;
+    position:relative;
+    background:#fffde6;
+    overflow:hidden;
+    margin-top: 10px;
+}
+.buyer-rating-model .desc-buyer-rating span.ic-note{
+    position: absolute;
+    background:url(http://static.sendo.vn/images/ecom/ic-note.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    top: 8px;
+    left: 12px;	
+}
+.buyer-rating-model .desc-buyer-rating .desc-col-lf{
+    width: 50%;
+    float:left;
+    border-right: 1px solid #ccc;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.buyer-rating-model .desc-buyer-rating .desc-col-lf .block-desc{overflow:hidden;margin-bottom: 10px;}
+.buyer-rating-model .desc-buyer-rating .desc-col-lf .block-star{
+    background: url(http://static.sendo.vn/images/ecom/star-rating.png) repeat-x;
+    height: 19px;	
+    float:left;
+    margin-right: 10px;
+}
+.w-100{width: 100px;}
+.w-80{width: 80px;}
+.w-60{width: 60px;}
+.w-40{width: 40px;}
+.w-20{width: 20px;}
+.buyer-rating-model .desc-buyer-rating .desc-col-lf span{float:left;line-height:19px;}
+.buyer-rating-model .desc-buyer-rating .desc-col-rg{
+    float:left;
+    margin: 30px 0 0 20px;
+}
+.buyer-rating-model .desc-buyer-rating .desc-col-rg p{line-height: 26px;}
+
+/* tabs */
+ .description-comment
+    {
+        margin-top:20px;
+        padding-top: 41px;
+        position: relative;
+    }
+   .description-comment .tab,
+   .description-comment .tab-bl
+    {
+        position:absolute;
+        top: 0;
+        height: 18px;
+        line-height: 18px;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-top-width:  3px;
+        background-color: #f8f8f8;
+        cursor: pointer;
+    }
+    .description-comment .tab-bl:hover{border-top-color:#009900;}
+    .description-comment .tab-bl.bl{left: 592px;}
+    .description-comment .tab-bl{left: 471px;}
+    .description-comment > .tab:nth-child(1){left:0;}
+    .description-comment > .tab:nth-child(3){left:122px;}
+    .description-comment > .tab:nth-child(5){left:330px;}
+    .description-comment > .tab.pkcn-tab:nth-child(5){left:243px;}
+    .description-comment > .tab:nth-child(7){left:451px;}
+    .description-comment .tab:hover{ border-top-color:#009900; }
+    .description-comment .tab.active{
+        color: #333;
+        border-top-color:#009900;
+        border-bottom-color:#fff;
+        background-color: #fff;
+    }
+    .description-comment .content{        
+
+        display:none;
+         border: 1px solid #DDDDDD;        
+        overflow: hidden;
+        padding: 10px;
+        width: 98%
+    }
+    .description-comment .content.active{
+        display:block;
+    }
+    .description-comment .ctsp{    }
+    .description-comment .tskt{       }
+    .buyer_comment{cursor: pointer}
+    
+    /* popup comment */
+    #Modal_BuyerComment_Shop{
+        width: 800px;
+        margin-left: -400px;
+    }
+    #Modal_BuyerComment_Shop .modal-body{overflow-y: auto; max-height: 450px;}
+    #Modal_BuyerComment{width:800px;}
+     
+      
+      
+.document-rating{width: 740px;margin: 0 auto;overflow:hidden;line-height:17px;}
+.document-rating table tr td{padding: 5px 10px;}
+.document-rating table tr td h3{
+	color: #0066ff;	
+}
+.document-rating .desc-star-block{margin-left: 40px;}
+.document-rating .desc-star-block p{line-height: 30px;margin-left: 10px;}
+p span.desc-star-rating{
+	display:block;
+	background: url(http://static.sendo.vn/images/ecom/star2.png) top left repeat-x;
+	width: 17px;
+	height: 15px;
+	float:left;
+	margin: 7px 0 0 0;
+}
+.document-rating table tr td.row2 p{font-size:11px;}
+.document-rating table tr td.row2 p strong{font-size:12px;}
+.document-rating table tr td p sub{font-size:10px;}
+.content span.feedback.name{
+    cursor: pointer;
+    color: #0066CC;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Modal_BuyerComment.modal.modal-login .modal-body{
+   max-height: 450px;
+   overflow-y: scroll;
+}
+#Modal_BuyerComment.modal{margin-left: -400px;}
+.sum45_popup:hover, .sum3_popup:hover, .sum12_popup:hover, .pro_sum3_popup:hover, .pro_sum12_popup:hover, .pro_sum45_popup:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sum45_popup, .sum3_popup, .sum12_popup{
+    padding: 0px 5px;
+}
+
+.pro_sum3_popup, .pro_sum12_popup, .pro_sum45_popup{
+    font-weight: bold;
+    color: #0066CC;
+}
+#popup-message .modal-header{
+    background: none repeat scroll 0 0 #EAEAEA;
+}

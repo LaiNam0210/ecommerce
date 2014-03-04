@@ -1,0 +1,387 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     height: 0;
+     font-size: 0;
+     content: '\0020';
+     clear: both;
+}
+.search_container
+	{
+		width:978px;
+		margin-top:10px;
+		
+	}
+	
+.left_search
+	{
+		width:220px;
+		float:left;
+		border:1px #CCC solid;
+		
+	}
+.left_search .box_item
+	{
+		padding:8px;	
+		border-bottom:1px #ddd solid;	
+
+	}
+.left_search .box_item:last-child
+	{
+		border-bottom:none;
+	}
+	.left_search .box_item h2
+	{
+		  background: none repeat scroll 0 0 #f5f5f5;
+	    font-size: 13px;
+	    line-height: 18px;
+	    padding: 5px;
+	}
+	.left_search .box_item .list
+		{
+			
+		}
+		.left_search .box_item .list > a.gan-attr-more,
+		.left_search .box_item .list > a.gan-attr-less
+		{
+			text-align:right;
+			font-size:11px;			
+			color:#666;
+			display: none;	
+			padding:5px;
+			padding-right:10px;
+			background:url('http://static.sendo.vn/images/ecom/navigation/gan-attribute-more.gif') right center no-repeat;
+		}
+		.left_search .box_item .list > a.gan-attr-less		{
+			background: url("http://static.sendo.vn/images/ecom/navigation/gan-attribute-less.gif") no-repeat scroll 100% 50% rgba(0, 0, 0, 0) !important;
+			
+		}
+		.left_search .box_item .list > a.gan-attr-more.show,
+		.left_search .box_item .list > a.gan-attr-less.show{display:block;}
+		.left_search .box_item .list > a.gan-attr-more:hover,
+		.left_search .box_item .list > a.gan-attr-less:hover{color: #06f;}	
+			
+		
+		.left_search .box_item .list > a:hover
+		{
+			
+			color:#F00;
+		}
+		.left_search .box_item .list ol
+		{
+			list-style:none;
+		}
+		.left_search .box_item .list ol li
+		{
+			list-style:none;
+		}
+		.left_search .box_item .list ol li a
+		{
+			background:url(http://static.sendo.vn/images/ecom/navigation/adj-nav-checkbox.gif) -70px  6px no-repeat;
+			color:#333;
+			text-decoration:none;
+			padding:5px 0;
+			padding-left:20px;
+			display:block;
+		}
+		.left_search .box_item .list ol li a span{color: #666; font-size: 11px;}
+		.left_search .box_item .list ol li a:hover,
+		.left_search .box_item .list ol li a.active
+		{
+			font-weight: bold;
+			background:url(http://static.sendo.vn/images/ecom/navigation/adj-nav-checkbox.gif) -50px -14px no-repeat;
+		}
+.left_search .box_item .list.size
+	{
+		overflow:hidden;
+	}
+.left_search .box_item .list.size li
+	{
+		list-style:none;
+		float:left;
+		margin:5px;
+	}
+.left_search .box_item .list.size li a
+	{
+		text-align:center;
+		line-height:18px;
+		font-size:11px;
+		background:#CCC;
+		padding:5px;
+	}
+.left_search .box_item .list.size li a:hover
+	{
+		background:#333;
+		color:#FFF;
+	}
+						
+
+
+.right_search
+	{
+		margin-left:232px;
+	}
+.right_search .title_search
+	{
+		 font-size:17px;
+		 font-weight:bold;
+		 margin-bottom: 10px;
+	}
+.right_search .layer_list{border:1px solid #ccc;}
+.right_search .box_product_result
+	{
+		overflow:hidden;
+	}
+.right_search .option_search
+	{
+		font-size:11px;
+		display:table;
+		padding:6px 8px;
+	}
+.right_search .option_search .cell
+	{
+		font-size:11px;
+		display:table-cell;
+		padding-right:20px;
+	}
+.right_search .option_search .cell input[type='checkbox']
+	{
+		vertical-align:middle;
+		margin-right:3px;
+	}
+.right_search .box_product_result .option_search .cell span
+	{
+		color:rgb(0, 153, 0);
+	}
+.right_search  .total_paging
+	{
+		background:#f3f3f3;
+		padding:10px;
+		font-size:11px;
+		overflow:hidden;
+		line-height:22px;
+	}
+.right_search  .total_paging .total
+	{
+		float:left;
+	}
+.right_search .total_paging ._paging
+	{
+		float:right;
+	}
+.right_search .box_product_result .product_list
+	{
+		padding-bottom:10px;	
+		padding-left:10px;
+		padding-right:10px;
+	}	
+.right_search .box_product_result .product_list .item
+	{
+		width:25%;
+		box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		float:left;
+		border:1px #FFF solid;
+		padding-bottom:10px;
+		margin-top:10px;
+		height: 300px;
+
+	}	
+.right_search .box_product_result .product_list .item .content	
+	{
+	width:164px;
+	margin:0 auto;
+	position: relative;
+	}
+.right_search .box_product_result .product_list .item .content .img_product
+	{
+	text-align:center;
+	margin-bottom:5px;
+	border:1px #CCC solid;
+	height: 215px;
+	}
+.right_search .box_product_result .product_list .item .content .img_product img
+	{
+	
+	}
+.right_search .box_product_result .product_list .item .content .price
+	{
+	color:#F00;
+	font-weight:bold;
+	padding:3px 0px;
+	}
+.right_search .box_product_result .product_list .item .content .name
+	{
+	padding:3px 0px;
+	}	
+.right_search .box_product_result .product_list .item .content .name a
+	{
+	text-decoration:none;
+	color:#333;
+	line-height: 16px;
+	}
+.right_search .box_product_result .product_list .item .content .name a:hover
+	{
+		color:#F00;
+	}
+.right_search .box_product_result .product_list .item .content .name_shop
+	{
+	font-size:11px;
+	}				
+.right_search .box_product_result .product_list .item .content .name_shop a
+	{
+	color:#06c;
+	font-weight:bold;
+	}				
+.right_search .box_product_result .product_list .item:hover
+	{
+		border-color: #ddd;
+		background-color: #f5f5f5;
+		box-shadow: 0 1px 2px #ccc;
+	}			
+.right_search .box_product_result .product_list .item:hover .img_product
+	{
+		border-color: #FFF;
+	}	
+		
+/* pagging */
+.total_paging{
+	overflow: hidden;
+	margin: 5px; 
+}
+._paging ol li {
+float: left;
+padding: 0 2px;
+line-height: 18px;
+list-style:none;
+}
+._paging ol li a.current {
+background: #ed4934;
+border: 1px solid #cb230e;
+color: #fff;
+}
+._paging ol li a {
+color: #333;
+display: block;
+padding: 0 7px;
+background: #FFF;
+border: 1px solid #ddd;
+border-radius: 2px;
+height:20px;
+text-align: center;
+}
+._paging ol li a.next,
+._paging ol li a.prev{
+	font-size: 14px;
+	font-weight: bold;
+	color: #999;
+	line-height: 21px;
+}
+._paging ol li a.current {
+background: #ed4934;
+border: 1px solid #cb230e;
+color: #fff;
+}
+._paging ol li a:hover {
+background: #ed4934;
+border: 1px solid #cb230e;
+color: #fff;
+}
+
+listing-content .acc-paging ol li a.next {
+background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") no-repeat;
+font-size: 0;
+text-indent: -9999px;
+width: 4px;
+height: 20px;
+border: 1px solid #fff;
+}
+
+.discount-tag {
+    background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") no-repeat scroll -4px -422px rgba(0, 0, 0, 0);
+    color: #FFFFFF !important;
+    display: block;
+    height: 36px;
+    left: 122px;
+    padding-left: 2px;
+    padding-top: 5px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    vertical-align: middle;
+    width: 45px;
+}
+.price{overflow: hidden;}
+.price .old-price {
+    color: #666666;
+    display: block;
+    float: right;
+    font-size: 11px;
+    padding: 1px 0;
+    text-decoration: line-through;
+}
+.price .new-price {
+    color: #D71D05;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding: 1px 0;
+}
+/*.loading-message{
+	display:none; 
+	position: fixed; 
+	background-color: #fff; 
+	opacity: 0.5; 
+	left: 0; 
+	top: 0; 
+	width: 100%;
+	height: 100%; 
+	z-index: 999;
+}*/
+.loading-message{
+	background-color: #fff; 
+	opacity: 0.5; 	
+}
+.img_loading{
+	display: none;
+	position: fixed; 
+	left: 50%;
+	top: 50%;
+	z-index: 9;
+}
+
+.note-msg, .notice-msg {
+    background-color: #FAFAEC;
+    background-image: url(http://static.sendo.vn/images/ecom/navigation/i_msg-note.gif);
+    border-color: #FCD344;
+    color: #3D6611;
+}
+
+
+.error-msg, .success-msg, .note-msg, .notice-msg {
+    background-position: 10px 7px !important;
+    background-repeat: no-repeat !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    font-size: 11px !important;
+    margin: 15px;
+    padding: 8px 8px 8px 32px !important;
+}
+
+.keyword_relation{
+	margin: 10px 0 5px 0;
+	font-weight: bold;
+}
+
+.keyword_relation a{ 
+	color: #0066FF;
+	font-weight: normal;
+}
+.keyword_relation a:hover{
+	text-decoration: underline;
+	color: #FF6600;
+}

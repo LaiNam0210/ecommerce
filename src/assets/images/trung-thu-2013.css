@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS FOR IC-TRUNG-THU */
+.ic-trung-thu{
+	background: url("/skin/frontend/default/ecom/images/event-trung-thu/icon_trungthu.png") top left no-repeat;
+	display: block;
+	height: 48px;
+	left: 10px;
+	position: absolute;
+	top: 7px;
+	width: 36px;
+}

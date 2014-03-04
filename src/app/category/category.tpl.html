@@ -1,0 +1,78 @@
+<div class="container-page col2-left-layout">
+
+    <div id="container-wrapper" class="main">
+        <div class="breadcrumbs">
+
+            <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a ng-href="#" title="Sendo" itemprop="url">
+                    <span itemprop="title">Sendo</span>
+                </a>
+
+            </div>
+
+            <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a ng-href="#" title="Thời trang nam" itemprop="url">
+                    <span itemprop="title">Thời trang nam</span>
+                </a>
+
+            </div>
+
+            <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                <span itemprop="title">Áo nam</span>
+
+            </div>
+
+        </div>
+        <div class="products-listing-wrapper">
+<!-- 
+            <div class="products-listing-left">
+                <div class="block block-layered-nav gomage-navigation-slider-type-cone gomage-navigation-icons-1F5070">
+
+                    <div class="block-content" id="gan-block-content">
+                        <p class="block-subtitle">
+
+                        </p>
+                        <div id="narrow-by-list">
+                            <dl class="gan-attribute">
+                                <dt id="advancednavigation-filter-content-cat-title">
+                                    <span class="filter-name">Danh mục</span>
+
+                                </dt>
+                                <dd id="advancednavigation-filter-content-cat">
+                                    <ol class=" ">
+                                        <li ng-repeat="item in catalog.catalog">
+                                            <a class=" cate_lv1" ng-href="#">{{item}}</a>
+                                        </li>
+                                    </ol>
+                                </dd>
+                            </dl>
+                            <dl class="gan-attribute">
+                                <dt id="advancednavigation-filter-content-mau_sac-title">
+                                    <span class="filter-name">Màu sắc</span>
+
+                                </dt>
+                                <dd id="advancednavigation-filter-content-mau_sac">
+
+                                    <ol class=" ">
+                                        <li ng-repeat="item in catalog.color | limitTo: colornumber">
+                                            <a ng-href="#/product/product?search_color={{item}}">{{item}}</a>
+                                        </li>
+                                        <li class="li-gan-attr-more" ng-show="colordisplay">
+                                            <button class="gan-attr-more" ng-click="colormore()">Xem thêm</button>
+                                        </li>
+                                        <li class="li-gan-attr-less" ng-show="!colordisplay" ng-click="colorless()">
+                                            <button class="gan-attr-less">Thu gọn</button>
+                                        </li>
+                                    </ol>
+
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div category-sendo options="options"></div>
+        </div>
+    </div>
+    <span id="fpcIdentifier"></span>
+</div>

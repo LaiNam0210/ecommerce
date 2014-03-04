@@ -1,0 +1,119 @@
+<div class="wrapper">
+    <div id="header">
+        <div class="header-content">
+            <h1 class="logo-sendo">
+                Non-Profit
+            </h1>
+            <div class="header-wrap">
+                <div class="head-info">
+                    <div class="img-info">
+                        <a class="a-tooltip" target="_blank" data-original-title="Người mua chỉ thanh toán khi nhận hàng còn nguyên niêm phong, nguyên đai nguyên kiện. Áp dụng trên toàn quốc với các đơn hàng có giá trị dưới 10,000,000 đồng." data-toggle="tooltip" data-placement="bottom" href="#">
+                            <img title="" alt="" src="../assets/images/img-cod.png">
+                        </a>
+                        <a class="a-tooltip" target="_blank" data-original-title="Người mua có quyền khiếu nại và yêu cầu được hoàn tiền nếu hàng hóa không giống như mô tả hoặc không phải là món hàng mà bạn muốn mua." data-toggle="tooltip" data-placement="bottom" href="#">
+                            <img title="" alt="" src="../assets/images/img-gddb.png">
+                        </a>
+                    </div>
+                    <ul>
+                        <li class="first"><a title="Bảo vệ người mua" href="#">Bảo vệ người
+                            mua</a>
+                        </li>
+                        <li><a title="Hỏi đáp" href="#">Hỏi đáp</a>
+                        </li>
+                        <li>Hỗ trợ :
+                            <img title="" alt="" src="../assets/images/img-ht-head.png">
+                            <strong>(04) 7300 4455</strong>(HN) -
+                            <strong>(08) 7300 4455</strong>(TP HCM)
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-search">
+
+                    <div class="search-bar">
+                        <div class="search-input-select">
+                            <input id="search" type="text" placeholder="Nhập từ khóa tìm kiếm" name="q" class="search-txt" autocomplete="off" typeahead="value for value in getCached($viewValue)" ng-model="selected" typeahead-on-select="selectMatch($item)">
+                            <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+                        </div>
+                        <input value="" type="submit" class="search-btn" ng-click="searchproduct()">
+                    </div>
+
+                    <div class="cart-head" title="Giỏ hàng của bạn"><a title="Giỏ hàng 0" href="#">Giỏ hàng <span class="total" id="qtyCart">(0)</span></a>
+                    </div>
+
+                    <div class="block-login" id="fospconnect">
+                        <ul>
+                            <li><a class="dn login-modal-click" href="#" title="Đăng nhập">Đăng nhập</a>
+                            </li>
+                            <li><a class="dk signup-modal-click" href="#" title="Đăng ký">Đăng ký </a>
+                            </li>
+                        </ul>
+                        <div class="login-sendo">
+                            <div class="login-block"><a class="a-login" href="#" title="Đăng nhập">Đăng nhập</a>
+                                <div class="login-ext">
+                                    <strong>Hoặc đăng nhập bằng:</strong>
+                                    <a title="facebook" href="#" class="login-fb">
+                                        <img title="" alt="" src="../assets/images/icon-fb-s.png">
+                                    </a>
+                                    <a title="yahoo" href="#" class="login-yahoo">
+                                        <img title="" alt="" src="../assets/images/icon-yahoo.png">
+                                    </a>
+                                    <a title="google" href="#" class="login-google">
+                                        <img title="" alt="" src="../assets/images/icon-google.png">
+                                    </a>
+                                </div>
+                                <div class="a-signup">
+                                    <span>Bạn chưa có tài khoản?</span><a title="Đăng ký" href="#">Đăng ký</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="nav-main">
+        <div class="line"></div>
+        <div class="nav-main-cont">
+            <div class="nav-main-left">
+                <div class="nav-main-box">
+                    <div class="nav-cate-title">Danh mục sản phẩm
+                        <span></span>
+                    </div>
+                   <!--  <ul class="home">
+                        <li class="" ng-repeat='category in categories'>
+                            <span class="{{category.class}}"></span>
+                            <h2><a class="" title="{{cagtegory.title}}" href="{{category.href}}">{{category.name}}</a>
+                            </h2>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+            <div class="nav-main-right">
+                <div class="nav-top-box">
+                    <ul>
+                        <li>
+                            <a title="Khuyến mãi" href="#" class="promotions">
+                                <span></span>Khuyến mãi</a>
+                        </li>
+                        <li>
+                            <a title="Cẩm nang mua sắm" href="#" class="camnang">
+                                <span></span>Cẩm nang mua sắm</a>
+                            <ul class="sub-cnms">
+                                <li ng-repeat='guide in guides'><a title="{{guide.title}}" href="{{guide.href}}">{{guide.title}}</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="Diễn đàn dành cho cộng đồng mua bán online tại Việt Nam" target="_blank" class="forum">
+                                <span></span>Cộng đồng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="open-shop" id="open-shop">
+                    <a rel="nofollow" href="#" title="Mở shop"> Mở Shop </a>
+                </div>
+                <div style="display: none;" id="manager_shop" class="open-shop"></div>
+            </div>
+        </div>
+    </div>
+</div>

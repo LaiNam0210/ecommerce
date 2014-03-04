@@ -1,0 +1,205 @@
+/* modal popup*/
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+.fade.in {opacity: 1;}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000000;
+}
+
+.modal-backdrop.fade {opacity: 0;}
+.modal-backdrop,
+.modal-backdrop.fade.in {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.modal {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    z-index: 1050;
+    width: 600px;
+    margin: 0 0 0 -300px;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    *border: 3px solid #999;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.modal.fade {
+    top: -25%;
+    -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+    transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+.modal.fade.in {top: 8%;}
+.modal-header {
+    background: #ee4935;
+    padding: 4px 15px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.modal-header .close {
+    color: #999;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.modal-header .close:hover {
+    color: #333;
+}
+
+.modal-header h3 {
+    margin: 0;
+    line-height: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.modal-body {
+    max-height: 500px;
+    padding: 15px;
+    line-height: 18px;
+    /*overflow-y: auto;*/
+}
+
+.modal-form {
+    margin-bottom: 0;
+}
+
+.modal-footer {
+    padding: 10px 15px;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;  
+    -webkit-box-shadow: inset 0 1px 0 #ffffff;
+    -moz-box-shadow: inset 0 1px 0 #ffffff;
+    box-shadow: inset 0 1px 0 #ffffff;
+}
+
+.modal-footer:before,
+.modal-footer:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.modal-footer:after {
+    clear: both;
+}
+.modal-footer button{
+     background: none repeat scroll 0 0 #54AF21;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 4px 8px;
+    text-align: center;
+}
+.modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+
+/* TOOL TIP */
+.tooltip {
+    position: absolute;
+    z-index: 1030;
+    display: block;
+    padding: 5px;
+    font-size: 11px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: visible;
+}
+/*.tooltip.in {opacity: 0.8;filter: alpha(opacity=80);}*/
+.tooltip.top {margin-top: -3px;}
+.tooltip.right { margin-left: 3px;}
+.tooltip.bottom {margin-top: 3px;}
+.tooltip.left {margin-left: -3px;}
+.tooltip-inner {
+    max-width: 200px;
+    padding: 4px 8px;
+    color: #333;
+    text-align: left;
+    text-decoration: none;
+    background-color: #eef9ff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 18px;
+    border: 1px solid #0b90e1;
+}
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 2px solid #000 transparent ;
+}
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-top-color: #000000;
+    border-width: 5px 5px 0;
+}
+.tooltip.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-right-color: #000000;
+    border-width: 5px 5px 5px 0;
+}
+.tooltip.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-left-color: #000000;
+    border-width: 5px 0 5px 5px;
+}
+.tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-bottom-color: #000000;
+    border-width: 0 5px 5px;
+}

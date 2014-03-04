@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS FOR POPUP HOME-PAGE*/
+.overflow{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	top: 0;
+	left: 0;
+	z-index: 9998;
+	transition: opacity 0.3s ease;
+    display: none;
+}
+.popup-sn-sendo{
+	position: fixed;
+	/*background: url(../../../images/event/sendobirthday/popup-sn-sendo.png) top left no-repeat;*/
+	width: 900px;
+	height: 540px;
+	top: 5%;
+	left: 50%;
+	z-index: 9999;
+	margin-left: -452px;
+	transition: opacity 0.3s ease;
+    display: none;
+}
+.bt-close{
+	background:url(../../../images/event/sendobirthday/bt-close.png) top left no-repeat;
+	width: 73px;
+	height: 64px;
+	position:absolute;
+	display:block;
+	top:-7px;
+	right: -8px;
+	cursor:pointer;
+}
+.popup-sn-sendo .link-giam-gia{
+	display: block;
+	background:url(../../../images/event/sendobirthday/txt-giam-gia.png) top left no-repeat;
+	width: 387px;
+	height: 44px;
+	position: absolute;
+	bottom: 26px;
+	left: 124px;
+}
+.popup-sn-sendo .link-tri-an-kh{
+	display: block;
+	background:url(../../../images/event/sendobirthday/txt-tri-an-kh.png) top left no-repeat;
+	width: 172px;
+	height: 34px;
+	position: absolute;
+	bottom: 26px;
+	left: 566px;
+}
+

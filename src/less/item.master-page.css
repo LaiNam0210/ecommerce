@@ -1,0 +1,1727 @@
+/* MASTER PAGE */
+
+/* FPT ID BAR */
+#fptid-bar{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    height: 26px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#fptid-bar .fptid-bar-cont{
+    margin: 0 auto;
+    line-height: 26px;
+    width: 980px;
+}
+#fptid-bar .fptid-bar-cont .fpt-link{float: left;overflow: hidden;}
+#fptid-bar .fptid-bar-cont .fpt-link li{float: left;}
+#fptid-bar .fptid-bar-cont .fpt-link li a{
+    display: block;
+    color: #666;
+    padding: 0 10px;
+    border-top: 2px solid #fff;
+    font-size: 11px;
+}
+#fptid-bar .fptid-bar-cont .fpt-link li a:hover{border-color: #d71d05;color: #333;}
+#fptid-bar .fptid-bar-cont .fpt-link li a.current{border-color: #d71d05;font-weight: bold; color: #333;}
+#fptid-bar .fptid-bar-cont .sendo-nav{float: right;margin-right: 1px}
+.fptid-bar-cont .sendo-nav a.hotro,
+.fptid-bar-cont .sendo-nav a.baovengm{border-right: 1px solid #ddd;}
+.fptid-bar-cont .sendo-nav a.hotro:hover,
+.fptid-bar-cont .sendo-nav a.baovengm:hover{color: #d71d05;}
+.fptid-bar-cont .sendo-nav a.acc-profile{
+    color: #014C8F;
+    font-weight: bold;
+    display: block;
+    float: left;
+    border-right: 1px solid #ddd ;
+    padding: 0 10px;
+    font-size: 11px;
+}
+.fptid-bar-cont .sendo-nav a.acc-profile:hover{background-color: #f7f7f7; }
+.fptid-bar-cont .sendo-nav .acc-profile img{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.fptid-bar-cont .sendo-nav .acc-sendo{
+    float: left;
+    position: relative;
+    border-right: 1px solid #ddd;
+    padding: 0 5px;
+}
+.fptid-bar-cont .sendo-nav .acc-sendo .acc{
+    background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") no-repeat -367px -298px;
+    color: #014C8F;
+    font-weight: bold;
+    display: block;
+    font-size: 11px;
+    padding-right: 10px;
+}
+.fptid-bar-cont .sendo-nav .acc-sendo:hover{background-color: #f7f7f7;}
+.fptid-bar-cont .sendo-nav .acc-sendo:hover .extend-acc-sendo{display:block}
+.fptid-bar-cont .sendo-nav .acc-sendo a.acc:hover{background-position: -367px -297px;color: #014C8F; }
+.fptid-bar-cont .sendo-nav .acc-sendo .extend-acc-sendo{
+    background-color: #f7f7f7;
+    border: 1px solid #DDDDDD;
+    left: -60px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 26px;
+    width: 150px;
+    display: none;
+}
+.acc-sendo .extend-acc-sendo li{}
+.acc-sendo .extend-acc-sendo li a{
+    color: #014C8F;
+    display: block;
+    font-size: 11px;
+}
+.acc-sendo .extend-acc-sendo li a:hover{font-weight: bold;}
+.padding10{padding:10px;}
+
+/* HEAER */
+#header{position: relative; z-index: 990; }
+#header .header-content{
+    width: 978px;
+    margin:0 auto;
+    padding: 10px 0;
+    position: relative;
+    height: 70px;
+}
+#header .header-content .logo-sendo{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    
+}
+#header .header-content .logo-sendo a {
+    background: url("http://static.sendo.vn/images/ecom/imgheader/logo-sendo.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 87px;
+    width: 221px;
+}
+#header .header-content .header-wrap{padding-left: 236px;}
+.header-content .header-wrap .head-info{ height: 30px; }
+.header-wrap .head-info .img-info{float: left;}
+.header-wrap .head-info .img-info a{cursor:pointer;}
+.header-wrap .head-info > ul{
+    float: right;
+    padding-top: 6px;
+}
+.head-info > ul > li{
+    float: left;
+    border-left: 1px solid #ddd;
+    padding: 0 5px;
+    font-size: 11px;
+    line-height: 16px;
+}
+.head-info > ul > li:first-child{border: none;}
+.head-info > ul > li > a{
+    font-size: 11px;
+    display: block;
+    color: #0066cc;
+}
+.head-info > ul > li > a:hover{text-decoration: underline;}
+
+/* SEARCH BOX */
+.box-search {clear: both;height: 30px; margin-top: 8px;}
+.search-bar {float:left; position: relative;}
+.search-input-select { float:left;}
+.search-input-select input.search-txt {
+    background-color: #fff;
+    border:1px solid #ddd;
+    color:#666;
+    width:300px;
+    float:left;
+    line-height:28px;
+    height:28px;
+    padding:0 4px;
+    border-radius: 2px 0 0 2px;
+}
+.search-input-select .cataloguedrop {
+    border:none;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333333;
+    width:190px;
+}
+.box-search .search-btn {
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat -1px -1px;
+    border: medium none;
+    float: left;
+    height: 30px;
+    width: 36px;
+    cursor:pointer;
+    line-height: 28px;
+    color: #fff;
+    font-size: 0;
+    text-indent: -99999px;
+}
+.box-search .search-btn:hover {}
+.box-search .cart-head{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") repeat-x 0 -42px;
+    float:left;
+    position: relative;
+    cursor: pointer;
+    height: 28px;
+    border:1px solid #ddd;
+    line-height:28px;
+    margin-left:13px;
+    border-radius:2px;
+    width: 116px;
+}
+.box-search .cart-head a{
+     color: #505050;
+    display: block;
+    padding-left: 30px;
+    position: relative;
+}
+
+.box-search .cart-head a:before {
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat scroll -230px 0 rgba(0, 0, 0, 0);
+    content: "";
+    height: 30px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}
+.box-search .cart-head:hover a{color: #000;}
+.box-search .cart-head .total{
+    color: #e5101d;
+    font-weight: bold;
+}
+.box-search .cart-head:hover .total{}
+
+/* search autocomplete */
+.search-autocomplete{
+    position: absolute;
+    top: 29px;
+    left: 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 445px;
+    display: none;
+    max-height: 450px;
+    overflow: auto;
+}
+.search-autocomplete ul{}
+.search-autocomplete ul li{
+    padding: 0 10px; 
+    overflow: hidden;
+    line-height: 28px;
+}
+
+.search-autocomplete ul li:nth-child(odd){background-color: #f5f5f5;}
+.search-autocomplete ul li:hover{background-color: #09d;}
+.search-autocomplete ul li:hover a{color: #fff;}
+.search-autocomplete ul li > a{    
+    display: block;
+    color: #666;
+    overflow: hidden;
+}
+.search-autocomplete ul li > a span.price, 
+.search-autocomplete ul li > a span.count_search{float: right;color:#666;}
+.search-autocomplete ul li > a span.price b{color: #f00;}
+.search-autocomplete ul li > span{
+    color: #666;
+    font-size: 11px;
+    float: right;
+    }
+.search-autocomplete ul li > span b{color: #e5101d; font-weight: normal;}
+.search-autocomplete ul li a b{color: #333; font-weight: bold;}
+.search-autocomplete ul li a i{color: #c00;}
+.search-autocomplete ul li a span{color: #06f;}
+.search-autocomplete ul li:hover a i,
+.search-autocomplete ul li:hover span{color: #fff;}
+
+/* fix search select */
+div.selectBox {
+    position: relative;
+    cursor: default;
+    text-align: left;
+    line-height: 28px;
+    height: 28px;
+    float: left;
+    z-index: 3;
+    border: 1px solid #ddd;
+    border-left: none;
+    color: #505050;
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") repeat-x 0 -42px;
+    width: 100px;
+}
+span.selected {
+    width:100px;
+    text-indent:10px;
+    border:none;
+    overflow:hidden;
+    cursor: pointer;
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat 75px -77px;
+}
+span.selectArrow {
+    width:30px;
+    border:1px solid #60abf8;
+    text-align:center;
+    font-size:20px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background:#4096ee;
+}
+
+span.selectArrow,span.selected {
+    float:left;
+    height:29px;
+    z-index:1;
+}
+div.selectOptions {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #ddd;
+    display: none;
+    left: -1px;
+    overflow: hidden;
+    position: relative;
+    top: -1px;
+    width: 100px;
+    z-index: 99999;
+}
+span.selectOption {
+    display:block;
+    width:80%;
+    line-height: 18px;
+    padding:5px 10%;
+}
+span.selectOption:hover {
+    color:#f6f6f6;
+    background:#4096ee;
+}
+.block-login{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") repeat-x 0 -42px;
+    float:right;
+    position: relative;
+    cursor: pointer;
+    height: 28px;
+    border:1px solid #ddd;
+    line-height:28px;
+    border-radius: 2px;
+    width: 148px;
+}
+/* in shop */
+.block-login.for-shop{}
+.block-login.for-shop .login-sendo{top:29px;}
+
+/*
+.block-login.for-shop .login-sendo a{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.block-login.for-shop .login-sendo a:hover{font-weight: bold;}
+
+*/
+/* end */
+.block-login:hover,
+.box-search .cart-head:hover{
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -moz-box-shadow:   2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+}
+.block-login > ul{}
+.block-login > ul > li{
+    float: left;
+    position: relative;
+}
+.block-login > ul > li > a{
+    color: #505050;
+    padding: 0 9px;
+    border-left: 1px solid #ddd;
+}
+.block-login > ul > li > a.dn{border:none;}
+.block-login > ul > li > a.current,
+.block-login > ul > li > a:hover{font-weight: bold; color: #e5101d}
+
+.block-login .icon{
+    background: url("http://static.sendo.vn/images/ecom/sprite-png.png") no-repeat 0 -1114px;
+    width: 14px;
+    height: 22px;
+    position: absolute;
+    top:2px;
+    left:  10px;
+}
+.block-login.for-shop .icon{
+    top: -2px;
+}
+.block-login .da-dn{
+    display: block;
+    text-align: center;
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat 118px -78px;
+}
+.block-login.for-shop .da-dn{background-position: 118px -80px;}
+.block-login.for-shop .da-dn:hover{background-position: 118px -79px;}
+.block-login:hover .da-dn{background-position: 118px -77px;}
+.block-login .da-dn span{font-weight: bold;}
+/*
+.block-login > ul > li > a.dk{background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat 52px -85px; padding-right:15px;}
+*/
+.block-login .login-sendo{
+    background-color: #f7f7f7;
+    border: 1px solid rgb(221, 221, 221);
+    position: absolute;
+    right: -1px;
+    top: 28px;
+    z-index:2;
+    width: 210px;
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -moz-box-shadow:   2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    display:none;
+}
+.block-login:hover .login-sendo{display: block}
+.login-sendo .login-block{
+    padding: 10px 10px 5px 10px;
+}
+
+.login-sendo .login-block .a-login{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat scroll 0 -115px transparent;
+    border: 1px solid rgb(199, 4, 16);
+    border-radius: 2px 2px 2px 2px;
+    display: block;
+    line-height:28px;
+    color: #fff;
+    font-weight:bold;
+    text-align:center;
+}
+.login-sendo .login-block .a-login:hover{
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    -moz-box-shadow:   2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+}
+.login-block .login-ext{padding-top: 10px;}
+.login-block .login-ext strong{display: block;}
+.login-block .login-ext a{margin:0 5px;}
+.login-block .a-signup{border-top: 1px solid #ddd; margin-top:5px; padding-top:5px;}
+.login-block .a-signup a{color: #e5101d; font-weight:bold; margin-left:5px;}
+.login-block .a-signup a:hover{text-decoration: underline;}
+.login-sendo .acc-sendo{padding-top: 5px;}
+/*
+.login-sendo .acc-sendo span{
+    display:block;
+    background-color:#f3f3f3;
+    padding:0 10px;
+    font-weight:bold;
+}
+ */
+.login-sendo .acc-sendo a{
+    display: block;
+    margin: 0 10px;
+    background: url("http://static.sendo.vn/images/ecom/sprite-png.png") no-repeat -973px -90px;
+    padding-left: 15px;
+}
+.login-sendo .acc-sendo a:hover{font-weight: bold;}
+
+/* NAV MAIN*/
+#nav-main{
+    clear:both;
+    height: 37px;
+    background-color: #eaeaea;
+    border-bottom: 1px solid #d5d5d5;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 2px rgba(213, 213, 213, 0.3);
+    -moz-box-shadow:    0px 2px 2px rgba(213, 213, 213, 0.3);
+    box-shadow:         0px 2px 2px rgba(213, 213, 213, 0.3);
+    width: 100%;
+}
+#nav-main .line{
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    left: 0;
+    line-height: 1px;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    z-index: 1;
+}
+#nav-main .nav-main-cont{width: 978px;margin: 0 auto;}
+/* NAV CATELOG */
+#nav-main .nav-main-left{
+    float: left;
+    width: 222px;
+    margin-top:-3px;
+    background-color: #fff;
+    /*
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -moz-box-shadow:   2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    */
+}
+#nav-main .nav-main-left .nav-main-box{position: relative; z-index:999}
+.nav-main-left .nav-main-box .nav-cate-title{
+    border: 1px solid #C6C6C6;
+    border-bottom-color: #eaeaea;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 39px;
+    line-height: 39px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 220px;
+    color:#505050;
+    border-radius: 2px 2px 0 0;
+}
+.nav-main-box .nav-cate-title span{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat scroll -6px -89px transparent;
+    display: block;
+    height: 6px;
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    width: 10px;
+}
+.nav-main-box .nav-cate-title:hover span{top: 19px;}
+.nav-main-left .nav-main-box:hover > ul{display: block}
+.nav-main-box > ul{
+    background: #fff;
+    border: 1px solid #c6c6c6;
+    border-top: none;
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -moz-box-shadow:   2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+    width: 220px;
+    z-index: 100;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 41px;
+}
+.nav-main-box > ul.home{display: block !important;}
+.nav-main-box > ul.shadow{
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -moz-box-shadow:   2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.1);
+}
+.nav-main-box > ul > li{
+    border-bottom: 1px solid #eaeaea;
+    line-height: 35px;
+    position: relative;
+}
+.nav-main-box > ul > li:last-child{border-bottom: none;}
+.nav-main-box > ul > li:last-child:hover{border-bottom: none;}
+.nav-main-box > ul > li > h2{margin-left: 35px;}
+.nav-main-box > ul > li > h2 >a{
+    background-color: #fff;
+    display: block;
+    font-weight: normal;
+    width:185px;
+}
+.nav-main-box > ul > li:hover > h2 > a,
+.nav-main-box > ul > li.current > h2 > a{
+    color: #e5101d;
+    font-weight: bold;
+    z-index: 501;
+    position: relative;
+    width:186px;
+}
+.nav-main-box > ul > li .icon-new{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bgsprite-home.png") no-repeat  0 -68px;
+    color: #FFFFFF;
+    font-size: 0;
+    height: 20px;
+    right: 35px;
+    line-height: 0;
+    position: absolute;
+    top: 5px;
+    width: 30px;
+    display:block;
+}
+.nav-main-box > ul > li .icon-cate{
+    display: block;
+    background:url("http://static.sendo.vn/images/ecom/imgheader/bgsprite-home.png") no-repeat;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+.nav-main-box > ul > li .icon-cate.thoi-trang-nu{ background-position: -111px -8px}
+.nav-main-box > ul > li:hover .icon-cate.thoi-trang-nu{ background-position: -91px -8px}
+.nav-main-box > ul > li .icon-cate.thoi-trang-nam{ background-position: -178px -8px}
+.nav-main-box > ul > li:hover .icon-cate.thoi-trang-nam{ background-position: -158px -8px}
+.nav-main-box > ul > li .icon-cate.me-va-be{ background-position: -234px -4px}
+.nav-main-box > ul > li:hover .icon-cate.me-va-be{ background-position: -214px -4px}
+.nav-main-box > ul > li .icon-cate.my-pham{ background-position: -293px -8px}
+.nav-main-box > ul > li:hover .icon-cate.my-pham{ background-position: -272px -8px}
+.nav-main-box > ul > li .icon-cate.sach{ background-position: -369px -5px}
+.nav-main-box > ul > li:hover .icon-cate.sach{ background-position: -342px -5px}
+.nav-main-box > ul > li .icon-cate.phu-kien-cong-nghe { background-position: -176px -66px;}
+.nav-main-box > ul > li:hover .icon-cate.phu-kien-cong-nghe{background-position: -196px -66px;}
+/* SUB CATE */
+.nav-main-box .sub-nav-cate{
+    background: #fff;
+    border: 1px solid #c6c6c6;
+    position: absolute;
+    left: 220px;
+    top: -1px;
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -moz-box-shadow:    2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    box-shadow:         2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    display: none;
+    height: 400px;
+    width: 450px;
+    z-index: 500;
+}
+.nav-main-box .sub-nav-cate .cate-title{
+    font-size: 16px;
+    font-weight:bold;
+    color: #e5101d;
+    padding-left: 12px;
+    z-index:103;
+    position:relative;
+}
+.sub-nav-cate > ul{
+    position: absolute;
+    top:30px;
+    z-index:103;
+}
+.sub-nav-cate > ul.list-cate-1{left: 0;}
+.sub-nav-cate > ul.list-cate-2{right: 20px;}
+.sub-nav-cate > ul.list-cate-2{}
+.sub-nav-cate > ul > li > h2{margin-left:10px;}
+.sub-nav-cate > ul > li{}
+.sub-nav-cate > ul > li > h2 > a{
+    display:block;
+    font-weight: normal;
+    padding-left: 15px;
+    line-height: 30px;
+
+}
+.sub-nav-cate > ul > li > h2 > a:hover{color: #e5101d;}
+.sub-nav-cate  .img-cate{
+    position: absolute;
+    top: 0;
+    right: -10px;
+    z-index:101;
+}
+.sub-nav-cate  .img-cate.thoi-trang-nu{top: 0;right: 0;}
+.sub-nav-cate  .img-cate.thoi-trang-nam{top: 0;right: 0;}
+.sub-nav-cate .img-cate.me-va-be{top: 0;right: 0;}
+.sub-nav-cate  .img-cate.my-pham{top: 0;right: 0;}
+.sub-nav-cate  .img-cate.sach{top: 0;right: 0;}
+.sub-nav-cate .img-cate.phu-kien-cong-nghe{right: 0; top: 157px;}
+.sub-nav-cate .img-cate.khong-gian-song{right:0;top:200px;}
+
+/* NAV CATE RIGHT */
+#nav-main .nav-main-right{
+    float: left;
+    margin-left: 16px;
+    position: relative;
+    width: 740px;
+}
+#nav-main .nav-main-right .nav-top-box{}
+.nav-top-box > ul{background-color: #eaeaea;}
+.nav-top-box > ul > li{float: left;position: relative; line-height: 39px;}
+.nav-top-box > ul > li > a{
+     background-color: #EAEAEA;
+    border-right: 1px solid #CCCCCC;
+    color: #505050;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-right: 10px;    
+}
+
+.nav-top-box > ul > li > a.collections{background-position: -261px -71px; padding-left:0}
+.nav-top-box > ul > li > a.promotions{background-position: -242px -71px}
+.nav-top-box > ul > li > a.camnang{background-position: -195px -71px}
+.nav-top-box > ul > li > a.forum {border: none;}
+.nav-top-box > ul > li > a > span{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat ;
+     display: block;
+    float: left;
+    height: 30px;
+    margin-right: 5px;
+    width: 23px;
+}
+.nav-top-box > ul > li > a.collections span{background-position: -57px 5px;}
+.nav-top-box > ul > li > a.promotions span{background-position: -109px 5px;}
+.nav-top-box > ul > li > a.camnang span{background-position: -168px 5px;}
+.nav-top-box > ul > li > a.collections:hover span,
+.nav-top-box > ul > li > a.collections.current span{background-position: -77px 5px;}
+.nav-top-box > ul > li > a.promotions:hover span,
+.nav-top-box > ul > li > a.promotions.current span{background-position: -134px 5px;}
+.nav-top-box > ul > li > a.camnang:hover span,
+.nav-top-box > ul > li > a.camnang.current span{background-position: -196px 5px;}
+.nav-top-box > ul > li:hover > a,
+.nav-top-box > ul > li > a.current{color: #e5101d;}
+.nav-top-box > ul > li > a.forum span {background-position: -289px 5px;}
+.nav-top-box > ul > li > a.forum:hover span {background-position: -321px 5px;}
+.nav-main-right .open-shop{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat 0 -115px ;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border:1px solid #c70410;
+    padding: 0 10px;
+    border-radius:2px;
+}
+.nav-main-right .open-shop a{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat -175px -76px ;
+    height: 28px;
+    line-height:28px;
+    color: #fff;
+    font-weight:bold;
+    padding-left:20px;
+    display:block;
+}
+.nav-main-right .open-shop:hover{
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -moz-box-shadow:    2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    box-shadow:         2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+}
+
+/* Modal login */
+.modal-login .modal{width: 600px}
+.modal-login .modal-header{
+    background: #fff;
+    overflow:hidden
+}
+.modal-login .modal-header .logo-sendo{
+    float: left;
+    padding-top:5px;
+}
+.modal-login .modal-header .logo-fptid{
+    float: right;
+    padding-right:30px;
+}
+.modal-login .modal-header .close{
+    background: none;
+    width:50px;
+    height:44px;
+    top: -3px;
+    right: -5px;
+    border-radius: 0;
+}
+.modal-login table tr td{padding: 4px;}
+.modal-login span.title{
+    font-weight: bold;
+    font-size:20px;
+    text-transform:uppercase;
+    border-bottom: 1px solid #ddd;
+    display:block;
+    padding-bottom:5px;
+}
+.modal-login table tr td a{color: #e5101d; margin-left:5px;}
+.modal-login table tr td a:hover{text-decoration: underline;}
+.modal-login table input[type="text"],
+.modal-login table input[type="password"]{
+    background-color:#fff;
+    border: 1px solid #c6c6c6;
+    height:22px;
+    line-height:22px;
+    padding:2px;
+    color: #666;
+    width:200px;
+}
+.modal-login table label{
+    cursor: pointer;
+    vertical-align:middle;
+}
+.modal-login table label input{margin-right: 5px;}
+.modal-login .btn-login{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat scroll 0 -115px transparent;
+    border: 1px solid rgb(199, 4, 16);
+    border-radius: 2px 2px 2px 2px;
+    color:#fff;
+    font-weight:bold;
+    line-height:24px;
+    cursor: pointer;
+    margin-right: 10px;
+	padding:1px 6px;
+	font-size:12px;
+	font-family:arial;
+}
+.modal-login .btn-login:hover,
+.modal-login table tr td a img:hover{
+    -ms-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -o-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -webkit-box-shadow: 2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    -moz-box-shadow:    2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+    box-shadow:         2px 2px 2px 0  rgba(50, 50, 50, 0.22);
+}
+.modal-login table .line{
+    display: block;
+    height:2px;
+    line-height:2px;
+    border-top: 1px solid #eee;
+    border-bottom:1px solid #fff;
+}
+.modal-login .modal-footer{
+    background: #fff;
+    overflow:hidden;
+    display:block;
+}
+.modal-login .modal-footer a{color: #e5101d;}
+.modal-login .modal-footer a:hover{text-decoration: underline;}
+
+
+.modal-detail .modal-body{
+    padding: 10px;
+}
+.modal-detail .box-btn{text-align: center;}
+/* Easy Slider link */
+
+#link_ext{position: relative; border:1px solid #ddd; margin-top: 10px;}
+#slider_link{padding: 0 30px; overflow:hidden}
+#slider_link ul{}
+#slider_link li{
+    height: 50px;
+    overflow: hidden;
+    width: 500px;
+}
+#slider_link li a{
+    margin-left: 25px;
+    margin-top:10px;
+    display:block;
+    float:left;
+    text-align:center;
+}
+
+#prevBtn-link, #nextBtn-link{
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#nextBtn-link{left:537px;}
+#prevBtn-link a, #nextBtn-link a{
+    background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") no-repeat scroll 0 0 rgb(255, 255, 255);
+    display: block;
+    font-size: 0;
+    height: 50px;
+    text-indent: -9999px;
+    width: 30px;
+}
+#prevBtn-link a{background-position: 7px -108px; border-right: 1px solid rgb(204, 204, 204);}
+#nextBtn-link a{background-position: -45px -108px;border-left: 1px solid rgb(204, 204, 204);}
+#prevBtn-link a:hover,#nextBtn-link a:hover{background-color: rgb(239, 239, 239);background-position: -148px -108px;}
+#prevBtn-link a:hover{background-position:-92px -108px;}
+
+/* FOOTER */
+
+ .brands-feature{margin: 0 auto; width: 978px; margin-top:10px}
+.brands-feature .title-brand{overflow: hidden;}
+.brands-feature .title-brand h2{
+    font-size: 12px;
+    float: left;
+    border-bottom: 3px solid #e5111d;
+    font-weight: bold;
+    line-height: 18px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+ .brands-feature .brand-slider{border: 1px solid #ccc; position: relative;}
+.brand-slider .brand-slider-content{padding: 0 30px;}
+.brand-slider .brand-slider-content ul{overflow: hidden;padding: 10px; height: 60px;}
+.brand-slider-content ul li{float: left;width: 905px; height: 80px;}
+.brand-slider-content ul li a{
+    display: block;
+    border: 1px solid transparent;
+    float: left;
+    margin: 0 3px;
+}
+.brand-slider-content ul li a:hover{border-color: #ddd;}
+#prevBtn-brand,
+#nextBtn-brand,
+#prevBtn-brand-small,
+#nextBtn-brand-small{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#nextBtn-brand{left: 945px;}
+#nextBtn-brand-small{left: 705px;}
+#prevBtn-brand a,
+#nextBtn-brand a,
+#prevBtn-brand-small a,
+#nextBtn-brand-small a{
+    display: block;
+    font-size: 0;
+    text-indent: -9999px;
+    background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") no-repeat #fff;
+    width: 30px;
+    height: 80px;
+}
+#prevBtn-brand a,#prevBtn-brand-small a{background-position: 7px -95px;border-right: 1px solid #ccc;}
+#prevBtn-brand a:hover,#prevBtn-brand-small a:hover{background-position: -92px -95px;background-color: #efefef;}
+#nextBtn-brand a,#nextBtn-brand-small a{background-position: -45px -95px;border-left: 1px solid #ccc;}
+#nextBtn-brand a:hover,#nextBtn-brand-small a:hover{background-position: -149px -95px;background-color: #efefef;}
+
+.products-listing-right .brands-feature.small-stype{width: 738px;}
+.brands-feature.small-stype .title-brand h2{border: none;}
+.brands-feature.small-stype ul li{width: 660px;}
+.brand-slider-content.small-stype ul li a{margin: 0 4px;}
+/* FOOTER */
+
+#footer{
+    margin-top:  14px;
+    border-top:1px solid #ccc;
+    background-color: #f5f5f5;
+}
+#footer .footer-content{margin: 0 auto; width: 978px;position: relative;}
+.footer-text {padding: 10px 0;overflow: hidden;}
+.footer-text .block-text{
+    width: 19%;
+    float: left;
+    border-left: 1px dotted #ccc;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-right: 6px;
+    height: 316px;
+}
+.footer-text .block-text:first-child{ border: none;}
+.footer-text .block-text:first-child .block{padding-left: 0;;}
+.footer-text .block-text .block{padding-left: 10px;}
+.footer-text .block-text .block h2.title{float: none; text-transform: none;}
+.footer-text .block-text .block h2.title a{font-size: 13px;font-weight: bold; display: block;}
+.footer-text .block-text .block h2 a,
+.footer-text .block-text .block a{font-size: 11px;font-weight: normal;display: block;}
+.footer-text .block-text .block a:hover{color: #c00;}
+.m-t-5{margin-top: 5px;}
+.footer-text .block-text .block a.view-more{color: #c00;background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") no-repeat -414px -220px;}
+.footer-text .block-text .block a.view-more:hover{text-decoration: underline;}
+.footer-text .block-text .block a.vne,
+.footer-text .block-text .block a.ns{display: inline-block;}
+/*.footer-text .block-text .block a.vne{vertical-align: bottom}*/
+.footer-text .block-text .block a.ns{margin-left: 5px;}
+.footer-text .block-text .block a.fb{
+    background: url("http://static.sendo.vn/images/ecom/bgsprite.gif") -260px -556px  no-repeat;
+    padding-left: 22px;
+    margin-top: 5px;
+}
+.footer-text .block-text .a-openshop{margin-top: 10px;}
+.footer-text .block-text .a-openshop:hover img,
+.footer-text .block-text .a-tt:hover img,
+.footer-text .block-text .a-gd:hover img{box-shadow: 0 1px 1px #ccc}
+#footer  .foot-bottom{
+    text-align: center;
+    line-height: 18px;
+    padding: 10px 0;
+    background: #fff;
+    border-top: 1px solid #f3f3f3;
+}
+#footer .foot-bottom table{
+    margin: 0 auto;
+    width: 978px;
+}
+#footer  .foot-bottom table tr td{
+    padding:7px;
+    color:#6e6e6e;
+    font-size: 11px;
+}
+
+#home_biglogo_4,#home_biglogo_3,#home_biglogo_2,#home_biglogo_1,#home_biglogo_5,#home_biglogo_6,
+#home_biglogo_7,#home_biglogo_8,#home_biglogo_9,#home_biglogo_10,
+#cat2_biglogo_1,#cat2_biglogo_3,#cat2_biglogo_4,#cat2_biglogo_5,#cat2_biglogo_6,#cat2_biglogo_7,
+#cat2_biglogo_8,#cat2_biglogo_9,#cat2_biglogo_10{margin-top: 10px;}
+
+/* CONTAINER */
+#container-wrapper{}
+.container-page{margin: 0 auto; width: 978px;}
+.breadcrumbs{
+    overflow: hidden; 
+    margin: 10px 0;
+    line-height: 18px;
+}
+.breadcrumbs div{float: left;}
+.breadcrumbs div a{
+     background: url("http://static.sendo.vn/images/ecom/arr_nav_cat.gif") no-repeat scroll right;
+    color: #666;
+    padding-right:10px;
+    margin-right: 8px;
+}
+.breadcrumbs div a span{font-weight: normal;}
+.breadcrumbs div span{color: #666; font-weight: bold;}
+.breadcrumbs div:hover a span{color: #333;}
+.breadcrumbs div .attr_{
+    background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") -469px -152px no-repeat;
+    display: block;
+    width: 6px;
+    height: 10px;
+}
+.breadcrumbs div.last{margin-left: 5px;}
+._arrbreadcrumb {
+    background: url("http://static.sendo.vn/images/ecom/sprite-png.png") no-repeat -245px -1px;
+    height: 12px;
+    width: 6px;
+}
+#scroll-top{
+    cursor: pointer;
+    background: url("http://static.sendo.vn/images/ecom/sprite-png.png") no-repeat -3px -280px;
+    bottom: 10px;
+    position:fixed;
+    z-index:999;
+    font-size: 0;
+    line-height: 0;
+    height: 48px;
+    width: 48px;
+    right: 55px;
+}
+
+.eclick{margin-top: 10px;}
+.banner-senpay{margin-top: 10px;}
+.acc-sendo .no_login{float: right}
+.acc-sendo .no_login li{float: left;}
+.acc-sendo .no_login li a{font-weight: bold; font-size: 11px; border-right: 1px solid #ccc; padding: 0 5px}
+.acc-sendo .no_login li a:hover{color: #0066cc}
+.acc-sendo .no_login li.end a{border: none}
+
+/* MODAL PHI VAN CHUYEN*/
+.modal.phi-van-chuyen{line-height: 18px;}
+.phi-van-chuyen p{margin: 5px 0;}
+.phi-van-chuyen strong.red-text{font-size: 13px;}
+.phi-van-chuyen table tr td{padding: 5px;border: 1px solid #ccc}
+.red-text{color: #c00;}
+.shop-info .name-shop a{display: block}
+.col-main {float:left;width:740px;}
+.col-right {float:right;width:222px;}
+
+/* BUTTON */
+button.button::-moz-focus-inner {
+    padding:0;
+    border:0;
+} /* FF Fix */
+button.button {
+    -webkit-border-fit:lines;
+} /* <- Safari & Google Chrome Fix */
+button.button {
+    overflow:visible;
+    width:auto;
+    border:0;
+    padding:0;
+    margin:0;
+    background:transparent;
+    cursor:pointer;
+}
+button.button span {
+    float:left;
+    height:38px;
+     background:transparent url("http://static.sendo.vn/images/ecom/bkg_save_info.gif") 0 0 no-repeat;
+    padding:0 0 0 6px;
+    font:bold 12px/38px Arial, Helvetica, sans-serif;
+    text-align:center;
+    white-space:nowrap;
+    color:#fff;
+}
+button.button:disabled span {
+    float:left;
+    height:38px;
+    background:transparent url("http://static.sendo.vn/images/ecom/bkg_save_info_disable.gif") 0 0 no-repeat;
+    padding:0 0 0 6px;
+    font:bold 12px/38px Arial, Helvetica, sans-serif;
+    text-align:center;
+    white-space:nowrap;
+    color:#fff;
+}
+button.button:disabled span span {
+    background-position:100% 0;
+    padding:0 12px 0 4px;
+}
+button.button span span {
+    background-position:100% 0;
+    padding:0 12px 0 4px;
+}
+.filter_bar
+{
+    background: none repeat scroll 0 0 white;
+    color: #343434;
+    height: 30px;
+    line-height: 30px;
+    padding:0 15px;
+
+}
+/* Pager */
+.toolbar .amount
+{
+    float:left;
+    font-size:11px;
+	padding-top: 4px;
+	padding-bottom: 0 !important;
+}
+.acc_content_right .pager{padding-top:10px;}
+.pager .amount {}
+.toolbar .pages {
+    margin:0;
+    padding-top:4px;
+    font-size:11px;
+    margin-left:10px;
+
+}
+.toolbar .pages ol {display:inline;}
+.toolbar .pages li {display:inline;padding:0px 3px;}
+.toolbar .pages .current {font-weight:bold;color:#C00;}
+.toolbar .pages {float:left;}
+.toolbar {
+/*    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;*/
+    padding:5px;
+    background:#f3f3f3;
+    overflow:hidden;
+    margin-top: 5px;
+}
+.toolbar .pager {
+    float:right;
+    font-size:11px;
+    margin: 0 15px 0 0 !important;
+}
+/* AUTO COMPLETE */
+.autocomplete-block{
+    background: #fff;
+    border:1px solid #d5d5d5;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    z-index: 990;
+    max-height: 250px;
+    overflow: auto;
+    width: 308px;
+    display: none;
+}
+.autocomplete-block ul{
+}
+.autocomplete-block ul li{
+    padding: 3px 0;
+    cursor:pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+}
+.autocomplete-block ul li:hover{
+    background:#3366cc;
+    color: #fff;
+}
+.autocomplete-block ul li span{
+    float:right;
+    font-size:10px;
+}
+.error-msg, .success-msg, .note-msg, .notice-msg {
+    border-style:solid !important;
+    border-width:1px !important;
+    background-position:10px 7px !important;
+    background-repeat:no-repeat !important;
+    /* min-height:24px !important;
+    font-weight:bold !important;*/
+    padding:8px 8px 8px 32px !important;
+    font-size:11px !important;
+    margin: 15px;
+}
+.error-msg {
+    border-color:#f16048;
+    background-color:#faebe7;
+    background-image:url(http://static.sendo.vn/images/ecom/i_msg-error.gif);
+    color:#df280a;
+}
+.success-msg {
+    border-color:#446423;
+    background-color:#eff5ea;
+    background-image:url(http://static.sendo.vn/images/ecom/i_msg-success.gif);
+    color:#3d6611;
+}
+.note-msg, .notice-msg {
+    border-color:#fcd344;
+    background-color:#fafaec;
+    background-image:url(http://static.sendo.vn/images/ecom/i_msg-note.gif);
+    color:#3d6611;
+}
+.regular-price .price,
+.new-price .price{
+    font-weight:bold;
+    color:#e5101d ;
+}
+/* content extend */
+.qd_left_list{
+    border:1px solid #e3e3e3;
+    background:#f3f3f3;
+    width:220px;
+    float:left;
+}
+.qd_left_list ul{
+    padding:10px;
+    margin-top:8px;
+}
+.qd_left_list ul li{
+    background:url(http://static.sendo.vn/images/ecom/bg_li_qd.png) no-repeat left top;
+    padding-left:15px;
+    padding-bottom:8px;
+}
+.qd_left_list ul li a{
+    display:block;
+    border-bottom:1px solid #e3e3e3;
+    color:#333;
+    padding-bottom:8px;
+    position:relative;
+    top:-3px;
+}
+.qd_left_list ul li a.last{border:none;}
+.qd_left_list ul li a:hover{color:#e5101d;}
+.qd_left_list ul li a.active{color:#e5101d;font-weight: bold;}
+.qd_right{
+    float:right;
+    width:742px;
+    color:#333;
+}
+.qd_right .qd_content{
+    border:1px solid #cdcdcd;
+    padding:10px;
+    padding-top:0;
+    width:720px;
+    border-top:none;
+    line-height:25px;
+}
+.qd_content_top{
+    background:url(http://static.sendo.vn/images/ecom/bg_top_qd.png) no-repeat left top;
+    height:25px;
+    width:742px;
+    top:1px;
+}
+span.red_ad{color:#e5101d; padding:0 5px;}
+.qd_content dl{
+}
+.qd_content dl dt{
+    color:#333;
+    font-size:14px;
+    font-weight:bold;
+}
+.qd_content dl table{
+    /*margin-left:30px;	*/
+}
+.qd_content dl dd{
+    background:url(http://static.sendo.vn/images/ecom/bg_dd.gif) no-repeat left top;
+    margin-left:15px;
+    padding-left:15px;
+}
+.qd_content dl dd img{
+    margin:10px;
+}
+.qd_content table tr td,.qd_content table tr th{
+    border:1px solid #e5e5e5;
+    padding-left:5px;
+}
+
+.qd_right .qd_warning{
+   /* background:url(http://static.sendo.vn/images/ecom/warning_qd.png) no-repeat left top; */
+    height:65px;
+    padding-left:85px;
+    margin-top:10px;
+    line-height:20px;
+}
+.qd_right .desc_h2{
+    margin:5px 0;
+    line-height:18px;
+    line-height:22px;
+}
+h2.upp{text-transform:uppercase;}
+.qd_content dl a{color:#e5101d}
+.qd_content dl a:hover{text-decoration:underline}
+.qd_content h3 {
+    cursor:pointer;
+    font-size:16px;
+    color:#333;
+   /* background:url(http://static.sendo.vn/images/ecom/arr_menu.gif) no-repeat left center; */
+    padding-left:15px;
+}
+.qd_content h3.active {
+   /* background:url(http://static.sendo.vn/images/ecom/arr_down.png) no-repeat left center;  */
+    color:#e5101d;
+}
+.qd_content dl.qa{display:none;margin-left:15px;border-top:1px solid #ccc;}
+
+/*end*/
+#cat2_biglogo_1,
+#cat2_biglogo_2,
+#cat2_biglogo_3,
+#cat2_biglogo_4,
+#cat2_biglogo_5,
+#cat2_biglogo_6{margin-top: 10px;}
+
+.page-title {padding:0 0 5px;margin:0 0 10px;}
+.page-title h1,
+.page-title h2{font-size:18px;color:#000;}
+#popupLogin .register_frm{line-height: 22px;width: 400px;}
+.register_frm .fpt-id{
+    text-align: center;
+    padding: 30px;
+    overflow: hidden;
+}
+.register_frm .fpt-id .btn{margin-top: 10px;}
+.register_frm .fpt-id .btn button{margin:0 5px; }
+/* Form Validation */
+.validation-advice {
+    clear:both;
+    min-height:13px;
+    margin:3px 0 0;
+    padding-left:17px;
+    font-size:10px;
+    line-height:13px;
+    color:#f00;
+    text-align: left;
+    /*  display: none; */
+}
+.validation-failed {border:1px dashed #f00 !important;background:#faebe7 !important;}
+.validation-passed {}
+p.required {
+    font-size:10px;
+    text-align:right;
+    color:#f00;
+}
+/* Expiration date and CVV number validation fix */
+.v-fix {float:left;}
+.v-fix .validation-advice {
+    display:block;
+    width:12em;
+    margin-right:-12em;
+    position:relative;
+}
+/* Global Messages  */
+.success {color:#3d6611;font-weight:bold;}
+.error {color:#f00;font-weight:bold;}
+.notice {color:#ccc;}
+.messages, .messages ul {
+    list-style:none !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+.messages {width:100%;overflow:hidden;}
+.messages li {margin:0 0 10px;}
+.messages li li {margin:0 0 3px;}
+
+/* 404 error */
+.error_404{
+    background:url(http://static.sendo.vn/images/ecom/404.gif) no-repeat top left;
+    margin-top:20px;
+    height:404px;
+    margin-left:15%;
+    width:628px;
+    padding:30px;
+    padding-bottom: 0px;
+}
+.error_404 .err_left{
+    width:228px;
+    float:left;
+    padding-top:30px;
+    height:240px;
+}
+.error_404 .err_right{
+    width:400px;
+    float:left;
+    padding-top:30px;
+    height:240px;
+}
+.error_404 .err_right span.t1{
+    font-size:20px;
+    font-weight:bold;
+    color:#e5101d;
+    line-height:18px;
+
+}
+.error_404 .err_right span.t2{
+    font-size:18px;
+    font-weight:bold;
+    color:#e5101d;
+    line-height:18px;
+
+}
+.error_404 .err_right span{
+    color:#333;
+    font-weight:bold;
+    padding-top:20px;
+}
+.error_404 .err_right ul{
+    width:180px;
+    float:left;
+    padding-left:20px;
+    padding-top:20px;
+}
+.err_right ul li{
+    padding:5px 0;
+    padding-left:10px;
+    background:url(http://static.sendo.vn/images/ecom/bg_li_error.png) no-repeat center left;
+}
+.err_right ul li a{
+    color:#333;
+}
+.err_right ul li a:hover{
+    color:#e5101d;
+}
+.error_404 span{
+    display:block;
+    font-size:14px;
+    line-height:18px;
+}
+.error_404 .err_bot{
+    overflow:hidden;
+    padding:20px;
+    width:668px;
+}
+.error_404 .err_bot a{
+    font-size:14px;
+    font-weight:bold;
+    color:#333;
+}
+.error_404 .err_bot a:hover{
+    color:#e5101d;
+}
+.error_404 .err_bot .td{
+    width:180px;
+    float:left;
+    position: relative;
+    top:-10px;
+}
+.err_bot .td a span{line-height:20px;	}
+.err_bot .td a span.n{
+    font-size:14px;
+    position:relative;
+    left:-14px;
+}
+.err_bot .td a span.t{font-size:11px;font-weight:normal;}
+.error_404 .err_bot .ht{
+    width:224px;
+    float:left;
+    text-align:center;
+}
+.ht a span.hd{padding-top:25px;}
+.error_404 .err_bot .ql{
+    width:178px;
+    float:left;
+    text-align:center;
+    padding-top:8px;
+    padding-left:15px;
+}
+.ql a span.tc{
+    font-size:18px;
+    font-weight:bold;
+    color:#e5101d;
+
+}
+@media screen and (max-width:680px){
+	.footer-content .customer_comment{display: none}
+}
+
+/* free shipping info */
+.shop-free-shipping{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    line-height: 18px;
+}
+.shop-free-shipping .shop-free-label{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") -1px -150px no-repeat;
+    padding-left: 30px;
+    display: block;
+    max-width: 350px;
+    cursor: help;
+    border: none;
+}
+.shop-free-shipping .shop-free-label a{
+    color: #e5101d;
+    text-decoration: underline;
+    padding: 0;
+}
+.shop-free-shipping .shop-free-cont{
+    position: absolute;
+    top: 18px;
+    left: 0;
+    background-color: #fff5de;
+    border: 1px solid #ffe7b0;
+    padding: 10px;
+    line-height: 22px;
+    border-radius: 3px;
+    display: none;
+    width: 320px;
+    z-index: 100;
+    word-wrap: break-word;
+}
+.shop-free-shipping:hover .shop-free-cont{display: block;}
+.shop-free-cont .ship-info-label{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") -1px -148px no-repeat;
+    padding-left: 30px;
+    line-height: 22px;
+}
+.shop-free-cont .ship-info-txt{font-size: 11px;}
+.shop-free-shipping strong{ color: rgb(0, 153, 0);}
+.shop-free-shipping strong.bg{
+    background: url("http://static.sendo.vn/images/ecom/imgheader/bg-head-sprite.png") no-repeat scroll -349px -151px transparent;
+    padding-left: 15px;
+}
+.shop-free-cont .ship-info-txt span{display: block;}
+.shop-free-cont .ship-info-txt a{color: #e5101d; text-decoration: underline;}
+.shop-free-cont .ship-info-txt a:hover{font-weight: bold;}
+.shop-free-cont .ship-info-txt .shop{
+    color: rgb(0, 102, 204);
+    text-transform: uppercase;
+}
+.modal.modal-login{overflow: visible;width: 600px;}
+.modal.modal-login .modal-body{background-color: #f5f5f5;}
+.modal.modal-login .validation-advice{ display: none;}
+.modal.modal-login .login-error{
+    color:#e5101d;
+    padding: 5px;
+    line-height: 16px;
+    background-color: #fff5de;
+    border: 1px solid #ffe7b0;
+}
+.cart .title_content h1{background-color: #fff; line-height: 22px;}
+.login_error{
+    color: rgb(255, 2, 0);
+    line-height: 18px;
+    text-align: center;
+}
+.intro-pvc{
+    border: 5px solid #dfdfdf;
+    border-radius: 4px;
+    background-color: #009900;
+    position: fixed;
+    bottom: -150px;
+    right: 0;
+    z-index: 9990;
+    width: 290px;
+}
+.intro-pvc h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #00c400 #037c03;
+    padding: 5px 10px;
+    overflow: hidden;
+    line-height: 18px;
+}
+.intro-pvc h2 span{
+    background-color: rgb(195, 230, 197);
+    border-radius: 50% 50% 50% 50%;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 16px;
+    padding: 1px;
+    text-align: center;
+    text-transform: none;
+    width: 16px;
+    line-height: 16px;
+}
+.intro-pvc p{
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    line-height: 18px;
+    margin-bottom: 2px;
+    font-size: 11px;
+}
+.intro-pvc p span{color: #e5101d}
+.green-mp{color:rgb(0, 153, 0); text-transform: uppercase;}
+.block-product.for-shop .free-ship-car{display: none;}
+.free-ship-car{
+    color: rgb(0, 153, 0);
+    font-size: 11px;
+    left: 105px;
+    position: absolute;
+    top: 228px;
+}
+.free-ship-car img{vertical-align: middle;}
+.thongbao-2-9 {
+    background-color: #fff5f4;
+    border: 1px solid #e5101d;
+    padding: 10px;
+    line-height: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.thongbao-2-9-2 {
+    background-color: #fff5f4;
+    border: 1px solid #e5101d;
+    padding: 10px;
+    line-height: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 13px;
+    position: absolute;
+    top: 35px;
+    left: 4%;
+    width: 90%;
+}
+
+
+
+/* pkcn */
+/* nav-tech */
+.sub-nav-cate.pkcn{width: 650px; height: 370px}
+.sub-nav-cate .cate-title.pkcn{float: left;}
+.sub-nav-cate .cate-title.pkcn a,
+.sub-nav-cate .cate-title.pkcn2 a{color: #c00}
+.sub-nav-cate .cate-title.pkcn2{float: left; margin-left: 32px;}
+.sub-nav-cate > ul.list-cate-2.nav-pkcn2{border-left: 1px solid #ddd;right: 240px;}
+.sub-nav-cate > ul.list-cate-2.nav-pkcn3{right: 80px;}
+.nav-main-box > ul > li .icon-cate.phu-kien-cong-nghe{background: url("http://static.sendo.vn/images/ecom/navicate/bg-li-pkcn.png") no-repeat scroll 1px 0;}
+.nav-main-box > ul > li:hover .icon-cate.phu-kien-cong-nghe{background-position: -19px 0px}
+
+.icon-new.pkcn{right: 35px !important;}
+.xt-pkcn{position: absolute; top:0;right:20px;}
+.xt-pkcn a.view-more {
+    background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") no-repeat scroll -404px -163px transparent;
+    border: medium none;
+    padding-right: 20px;
+}
+.xt-pkcn a.view-more:hover {
+    background: url("http://static.sendo.vn/images/ecom/bgsprite-home.png") no-repeat scroll -404px -224px transparent;
+    color: #CC0000;
+}
+
+/* banner left right */
+div.img-event-book-left,
+div.img-event-book-right{
+    height: 300px;
+    position: fixed;
+    width: 120px;
+    margin-top: 25px;
+    z-index: 100;
+}
+div.img-event-book-left{margin-left: -130px;}
+div.img-event-book-right{margin-left: 988px;}
+div.img-event-book-left a,
+div.img-event-book-right a{display:block}
+div.img-event-book-right.home,
+div.img-event-book-left.home{margin-top: 0 !important;}
+div.img-event-book-left.book,
+div.img-event-book-right.book{margin-top: 10px !important;}
+div.img-event-book-right.for-cnms,
+div.img-event-book-left.for-cnms{margin-top: 90px;}
+@media screen and (max-width : 978px){
+   div.img-event-book-left,
+    div.img-event-book-right{ display: none}
+}
+.cms-ron-rang-he-sang-ngap-tran-hang-moi .img-event-book-right.home,
+.cms-ron-rang-he-sang-ngap-tran-hang-moi .img-event-book-left.home{margin-top: -45px !important;}
+
+/* suv cnms */
+.sub-cnms{
+    position: absolute;
+    left: -2px;
+    top: 37px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #d5d5d5;
+    z-index: 100;
+    min-width: 180px;
+    box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.22);
+    -moz-box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.22);
+    -wenkit-box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.22);
+    display: none;
+}
+.sub-cnms > li{}
+.sub-cnms > li > a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dashed rgb(215, 215, 215);
+    padding: 2px 10px;
+    color: #666;
+}
+.sub-cnms > li:last-child > a{border:none;}
+.sub-cnms > li > a:hover{background-color: rgb(235, 235, 235); color: #000;}
+.nav-top-box > ul > li:hover .sub-cnms{display: block;}
+/* END master-page.css */
+
+.nav-main-box > ul > li .icon-cate.khong-gian-song {
+    background: url("http://static.sendo.vn/images/ecom/navicate/bg-li-kgs.png") no-repeat scroll -1px 0 rgba(0, 0, 0, 0);
+}
+/* Modal_SendMail */
+#Modal_SendMail{top:20%}
+#Modal_SendMail .modal-body{line-height: 20px;}
+#Modal_SendMail .modal-footer button{
+     background: none repeat scroll 0 0 #54AF21;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    text-align: center;
+    
+}
+
+/*LINKS-BLOCK*/
+div.links-block{
+    padding:14px 0 0;
+    width: 978px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.links-block .links-block-con{
+    float:right;
+  left:-50%;
+  position:relative;
+}
+div.links-block ul{
+      position: relative;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  overflow:hidden;
+}
+div.links-block ul li{float: left;}
+div.links-block ul li a{
+ line-height:17px;
+ font-size:12px;
+ border-left: 1px solid #ccc;
+ padding: 0 5px;
+}
+div.links-block ul li a.active{color:#0066ff;}
+div.links-block ul li a:hover{color:#0066ff; text-decoration: underline;}
+div.links-block ul li:first-child a{border:none;}
+/*END-LINKS-BLOCK*/
+.customer_comment{margin-top: 10px;}
+.box-like-face{margin-top: 10px;}
+.block-share{
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    top:41%;
+    cursor: pointer;
+}
+.box-share-google{margin-top: 10px;}
+/*event xa hang*/
+.nav-top-box > ul > li.event-xahang > a{
+	color:#E5101D;
+}
+.nav-top-box > ul > li.event-xahang > a > span{
+	height: 35px;
+	width: 26px;
+	background: url("http://static.sendo.vn/images/ecom/imgheader/ic-event-newyear.png") no-repeat left center;
+}
+.nav-top-box ul li.event-menu-home a span {
+    background: url("http://static.sendo.vn/images/ecom/imgheader/ic-event-valentine.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 35px;
+    margin-right: 5px;
+    width: 26px;
+}
